@@ -183,7 +183,7 @@ export const ProductDetail = () => {
           <div>
             {product.category?.name && (
               <span className="text-xs uppercase font-extrabold tracking-widest text-stone-400 block mb-1">
-                {product.category.name} • {product.gender.toUpperCase()}
+                {product.category.name}
               </span>
             )}
             <h1 className="font-['Syne'] text-3xl sm:text-4xl font-black text-neutral-950 leading-tight">

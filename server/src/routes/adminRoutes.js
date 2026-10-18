@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import multer from 'multer';
 import { requireAuth } from '../middlewares/auth.js';
 import { requireAdmin } from '../middlewares/admin.js';
 import {
@@ -6,13 +7,20 @@ import {
   adminGetProducts,
   adminCreateProduct,
   adminUpdateProduct,
+  adminUpdateVariantStock,
   adminDeleteProduct,
+  adminUploadImage,
   adminGetOrders,
   adminUpdateOrderStatus,
   adminGetCoupons,
   adminCreateCoupon,
   adminDeleteCoupon
 } from '../controllers/adminController.js';
+
+const upload = multer({
+  storage: multer.memoryStorage(),
+  limits: { fileSize: 10 * 1024 * 1024 }
+});
 
 const router = Router();
 
@@ -21,11 +29,15 @@ router.use(requireAuth, requireAdmin);
 
 router.get('/metrics', getDashboardMetrics);
 
-// Products
+// Image Upload to Supabase Products Bucket
+router.post('/upload-image', upload.single('image'), adminUploadImage);
+
+// Products & Stock
 router.get('/products', adminGetProducts);
 router.post('/products', adminCreateProduct);
 router.put('/products/:id', adminUpdateProduct);
 router.delete('/products/:id', adminDeleteProduct);
+router.patch('/variants/:id/stock', adminUpdateVariantStock);
 
 // Orders
 router.get('/orders', adminGetOrders);

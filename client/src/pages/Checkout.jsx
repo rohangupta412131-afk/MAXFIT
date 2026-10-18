@@ -25,10 +25,16 @@ export const Checkout = () => {
   const buyNowVariantId = searchParams.get('buyNowVariantId');
   const buyNowQty = parseInt(searchParams.get('buyNowQty') || '1', 10);
 
+  const [buyNowItem, setBuyNowItem] = useState(null);
+  const [buyNowSummary, setBuyNowSummary] = useState(null);
+  const [loadingBuyNow, setLoadingBuyNow] = useState(!!buyNowVariantId);
+
   const [addresses, setAddresses] = useState([]);
   const [selectedAddressId, setSelectedAddressId] = useState('');
   const [showNewAddressModal, setShowNewAddressModal] = useState(false);
   const [processingPayment, setProcessingPayment] = useState(false);
+
+  const isBuyNow = !!buyNowVariantId;
 
   // New address form state
   const [newAddr, setNewAddr] = useState({
@@ -58,6 +64,34 @@ export const Checkout = () => {
   useEffect(() => {
     fetchAddresses();
   }, []);
+
+  // Fetch Buy Now preview when buyNowVariantId is present
+  useEffect(() => {
+    if (!buyNowVariantId) return;
+
+    const fetchBuyNowData = async () => {
+      try {
+        setLoadingBuyNow(true);
+        const res = await api.get(`/cart/buy-now-preview?variantId=${buyNowVariantId}&qty=${buyNowQty}`);
+        if (res.success && res.data) {
+          setBuyNowItem(res.data.item);
+          setBuyNowSummary(res.data.summary);
+        } else {
+          toast.error(res.error || 'Failed to retrieve product details for Buy Now');
+        }
+      } catch (err) {
+        toast.error(err.message || 'Error loading product details');
+      } finally {
+        setLoadingBuyNow(false);
+      }
+    };
+
+    fetchBuyNowData();
+  }, [buyNowVariantId, buyNowQty]);
+
+  const activeSummary = isBuyNow 
+    ? (buyNowSummary || { subtotal: 0, discount: 0, shippingFee: 0, gstBreakdown: { totalTax: 0 }, total: 0 })
+    : cartSummary;
 
   const handleCreateAddress = async (e) => {
     e.preventDefault();
@@ -169,6 +203,21 @@ export const Checkout = () => {
     }
   };
 
+  if (!isBuyNow && cartItems.length === 0) {
+    return (
+      <div className="max-w-xl mx-auto px-4 py-24 text-center space-y-4">
+        <h2 className="font-['Syne'] text-2xl font-bold text-neutral-950">Your Bag is Empty</h2>
+        <p className="text-xs text-stone-500">There are no items currently in your shopping bag to checkout.</p>
+        <Link
+          to="/shop"
+          className="inline-block px-6 py-3 bg-neutral-950 text-white rounded-full text-xs font-bold uppercase tracking-wider hover:bg-neutral-800 transition"
+        >
+          Explore Men's Collection
+        </Link>
+      </div>
+    );
+  }
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
       <div className="flex items-center gap-2">
@@ -267,44 +316,98 @@ export const Checkout = () => {
 
         {/* Right: Order Summary Sidebar */}
         <div className="bg-white rounded-3xl p-6 border border-stone-200/80 shadow-sm space-y-6">
-          <h3 className="font-['Syne'] text-base font-bold text-neutral-950">
-            Payment Summary
-          </h3>
+          <div className="flex items-center justify-between">
+            <h3 className="font-['Syne'] text-base font-bold text-neutral-950">
+              {isBuyNow ? 'Buy Now Summary' : 'Payment Summary'}
+            </h3>
+            <span className="text-[10px] font-bold uppercase tracking-wider bg-stone-100 text-stone-700 px-2.5 py-1 rounded-lg">
+              {isBuyNow ? 'Single Item Direct' : `${cartItems.length} Item(s)`}
+            </span>
+          </div>
+
+          {/* Item Preview */}
+          {loadingBuyNow ? (
+            <div className="p-4 bg-stone-50 rounded-2xl flex items-center justify-center gap-2 text-xs text-stone-500">
+              <div className="w-4 h-4 border-2 border-stone-400 border-t-transparent rounded-full animate-spin"></div>
+              <span>Loading garment details...</span>
+            </div>
+          ) : isBuyNow && buyNowItem ? (
+            <div className="p-3.5 bg-stone-50 rounded-2xl border border-stone-200/80 flex items-center gap-3">
+              <img
+                src={buyNowItem.variant?.product?.images?.[0] || buyNowItem.variant?.product?.garment_image}
+                alt={buyNowItem.variant?.product?.name}
+                className="w-14 h-16 object-cover rounded-xl bg-white border border-stone-200 shrink-0"
+              />
+              <div className="overflow-hidden flex-1">
+                <p className="font-bold text-xs text-neutral-950 truncate">
+                  {buyNowItem.variant?.product?.name}
+                </p>
+                <div className="flex items-center gap-2 mt-1 text-[11px] text-stone-500">
+                  <span className="font-bold text-neutral-900 bg-white border border-stone-200 px-1.5 py-0.5 rounded">
+                    Size: {buyNowItem.variant?.size}
+                  </span>
+                  <span>Qty: {buyNowItem.qty}</span>
+                </div>
+                <p className="font-black font-['Syne'] text-xs text-neutral-950 mt-1">
+                  ₹{Number(buyNowItem.variant?.product?.price).toLocaleString('en-IN')}
+                </p>
+              </div>
+            </div>
+          ) : !isBuyNow && cartItems.length > 0 ? (
+            <div className="space-y-2 max-h-48 overflow-y-auto pr-1">
+              {cartItems.map((item) => (
+                <div key={item.id} className="p-2.5 bg-stone-50 rounded-xl border border-stone-100 flex items-center gap-2.5">
+                  <img
+                    src={item.variant?.product?.images?.[0] || item.variant?.product?.garment_image}
+                    alt=""
+                    className="w-10 h-12 object-cover rounded-lg bg-white border border-stone-200 shrink-0"
+                  />
+                  <div className="overflow-hidden flex-1">
+                    <p className="font-bold text-xs text-neutral-950 truncate">{item.variant?.product?.name}</p>
+                    <span className="text-[10px] text-stone-500">Size: {item.variant?.size} • Qty: {item.qty}</span>
+                  </div>
+                  <span className="text-xs font-bold text-neutral-950">
+                    ₹{(Number(item.variant?.product?.price) * item.qty).toLocaleString('en-IN')}
+                  </span>
+                </div>
+              ))}
+            </div>
+          ) : null}
 
           <div className="space-y-2.5 text-xs text-stone-600">
             <div className="flex justify-between">
               <span>Subtotal</span>
-              <span className="font-bold text-neutral-950">₹{cartSummary.subtotal.toLocaleString('en-IN')}</span>
+              <span className="font-bold text-neutral-950">₹{activeSummary.subtotal.toLocaleString('en-IN')}</span>
             </div>
 
-            {cartSummary.discount > 0 && (
+            {activeSummary.discount > 0 && (
               <div className="flex justify-between text-emerald-600 font-semibold">
                 <span>Promotional Discount</span>
-                <span>-₹{cartSummary.discount.toLocaleString('en-IN')}</span>
+                <span>-₹{activeSummary.discount.toLocaleString('en-IN')}</span>
               </div>
             )}
 
             <div className="flex justify-between">
               <span>Shipping Fee</span>
               <span className="font-bold text-neutral-950">
-                {cartSummary.shippingFee === 0 ? 'FREE' : `₹${cartSummary.shippingFee}`}
+                {activeSummary.shippingFee === 0 ? 'FREE' : `₹${activeSummary.shippingFee}`}
               </span>
             </div>
 
             <div className="flex justify-between text-stone-400 text-[11px]">
               <span>Estimated GST (Included)</span>
-              <span>₹{cartSummary.gstBreakdown?.totalTax || 0}</span>
+              <span>₹{activeSummary.gstBreakdown?.totalTax || 0}</span>
             </div>
 
             <div className="border-t border-stone-200 pt-3 flex justify-between text-sm font-bold text-neutral-950 font-['Syne']">
               <span>Total Payable</span>
-              <span className="text-lg">₹{cartSummary.total.toLocaleString('en-IN')}</span>
+              <span className="text-lg">₹{activeSummary.total.toLocaleString('en-IN')}</span>
             </div>
           </div>
 
           <button
             onClick={handleProceedToPayment}
-            disabled={processingPayment || !selectedAddressId}
+            disabled={processingPayment || !selectedAddressId || activeSummary.total <= 0 || loadingBuyNow}
             className="w-full py-4 bg-neutral-950 text-white rounded-full text-xs font-extrabold uppercase tracking-wider hover:bg-neutral-800 transition shadow-xl flex items-center justify-center gap-2 disabled:opacity-50"
           >
             {processingPayment ? (
@@ -314,7 +417,7 @@ export const Checkout = () => {
               </>
             ) : (
               <>
-                <span>Pay ₹{cartSummary.total.toLocaleString('en-IN')} Now</span>
+                <span>Pay ₹{activeSummary.total.toLocaleString('en-IN')} Now</span>
                 <ArrowRight className="w-4 h-4" />
               </>
             )}

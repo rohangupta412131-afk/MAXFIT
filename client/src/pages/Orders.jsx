@@ -113,13 +113,23 @@ export const Orders = () => {
                 </span>
               </div>
 
-              <Link
-                to={`/orders/${order.id}`}
-                className="px-5 py-2.5 bg-neutral-950 text-white rounded-xl text-xs font-bold hover:bg-neutral-800 transition flex items-center gap-1.5 shadow-sm"
-              >
-                <span>Order Details</span>
-                <ChevronRight className="w-4 h-4" />
-              </Link>
+              {order.status === 'pending' ? (
+                <Link
+                  to={`/orders/${order.id}`}
+                  className="px-5 py-2.5 bg-amber-500 hover:bg-amber-600 text-white rounded-xl text-xs font-bold transition flex items-center gap-1.5 shadow-sm"
+                >
+                  <span>Complete Payment</span>
+                  <ChevronRight className="w-4 h-4" />
+                </Link>
+              ) : (
+                <Link
+                  to={`/orders/${order.id}`}
+                  className="px-5 py-2.5 bg-neutral-950 text-white rounded-xl text-xs font-bold hover:bg-neutral-800 transition flex items-center gap-1.5 shadow-sm"
+                >
+                  <span>Order Details</span>
+                  <ChevronRight className="w-4 h-4" />
+                </Link>
+              )}
             </div>
           </div>
         ))}

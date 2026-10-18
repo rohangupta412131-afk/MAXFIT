@@ -10,7 +10,9 @@
     "dev:client": "npm --prefix client run dev",
     "install:all": "npm install && npm --prefix server install && npm --prefix client install",
     "build": "npm --prefix client run build",
-    "seed": "npm --prefix server run seed",
+    "seed": "npm --prefix server run seed:mens",
+    "seed:mens": "npm --prefix server run seed:mens",
+    "reset:catalog": "npm --prefix server run reset:catalog",
     "test:vton": "npm --prefix server run test:vton",
     "test": "npm --prefix server run test"
   },

@@ -6,7 +6,10 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
-    "seed": "node src/scripts/seed-data.js",
+    "seed": "node scripts/seed-mens-catalog.js",
+    "seed:mens": "node scripts/seed-mens-catalog.js",
+    "reset:catalog": "node scripts/reset-catalog.js",
+    "admin:promote": "node scripts/set-admin.js",
     "migrate": "node src/scripts/run-migrations.js",
     "test:vton": "node scripts/test-vton.js",
     "test": "vitest run"

@@ -64,27 +64,25 @@ export const Navbar = () => {
           </Link>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden md:flex items-center gap-8 text-sm font-semibold tracking-wide text-stone-700">
-            <Link to="/shop" className="hover:text-neutral-950 transition">Shop All</Link>
-            <Link to="/shop?gender=men" className="hover:text-neutral-950 transition">Men</Link>
-            <Link to="/shop?gender=women" className="hover:text-neutral-950 transition">Women</Link>
-            <Link to="/shop?sort=newest" className="hover:text-neutral-950 transition">New Arrivals</Link>
+          <nav className="hidden md:flex items-center gap-6 lg:gap-8 text-sm font-semibold tracking-wide text-stone-700 whitespace-nowrap">
+            <Link to="/shop" className="hover:text-neutral-950 transition whitespace-nowrap py-1">Shop All</Link>
+            <Link to="/shop?sort=newest" className="hover:text-neutral-950 transition whitespace-nowrap py-1">New Arrivals</Link>
 
             {/* Virtual Try-On Studio Glow Button */}
             <Link
               to="/tryon"
-              className="relative group inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-bold bg-gradient-to-r from-neutral-900 to-stone-800 text-white shadow-md hover:shadow-neutral-400/50 hover:scale-[1.02] active:scale-[0.98] transition"
+              className="relative group inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-bold bg-gradient-to-r from-neutral-900 to-stone-800 text-white shadow-md hover:shadow-neutral-400/50 hover:scale-[1.02] active:scale-[0.98] transition whitespace-nowrap shrink-0"
             >
               <Sparkles className="w-3.5 h-3.5 text-amber-400 animate-spin-slow" />
-              <span>AI Try-On Studio</span>
+              <span className="whitespace-nowrap">AI Try-On Studio</span>
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
             </Link>
           </nav>
 
           {/* Search Bar & Actions */}
-          <div className="flex items-center gap-3 sm:gap-4">
+          <div className="flex items-center gap-3 sm:gap-4 shrink-0">
             {/* Desktop Search Input */}
-            <form onSubmit={handleSearch} className="hidden lg:flex items-center relative w-48 focus-within:w-64 transition-all duration-300">
+            <form onSubmit={handleSearch} className="hidden lg:flex items-center relative w-40 xl:w-52 focus-within:w-60 transition-all duration-300">
               <input
                 type="text"
                 placeholder="Search styles..."
@@ -98,7 +96,7 @@ export const Navbar = () => {
             {/* Wishlist Link */}
             <Link
               to="/wishlist"
-              className="p-2 text-stone-700 hover:text-neutral-950 hover:bg-stone-100 rounded-full transition"
+              className="p-2 text-stone-700 hover:text-neutral-950 hover:bg-stone-100 rounded-full transition shrink-0"
               title="Wishlist"
             >
               <Heart className="w-5 h-5" />
@@ -107,7 +105,7 @@ export const Navbar = () => {
             {/* Bag / Cart Link */}
             <Link
               to="/cart"
-              className="relative p-2 text-stone-700 hover:text-neutral-950 hover:bg-stone-100 rounded-full transition"
+              className="relative p-2 text-stone-700 hover:text-neutral-950 hover:bg-stone-100 rounded-full transition shrink-0"
               title="Shopping Bag"
             >
               <ShoppingBag className="w-5 h-5" />
@@ -149,6 +147,15 @@ export const Navbar = () => {
                     >
                       <User className="w-4 h-4" />
                       <span>My Profile & Fit</span>
+                    </Link>
+
+                    <Link
+                      to="/cart"
+                      onClick={() => setUserDropdownOpen(false)}
+                      className="flex items-center gap-2.5 px-4 py-2 text-xs font-medium text-stone-700 hover:bg-stone-50 hover:text-neutral-950 transition"
+                    >
+                      <ShoppingBag className="w-4 h-4" />
+                      <span>Shopping Bag ({cartCount})</span>
                     </Link>
 
                     <Link
@@ -222,8 +229,11 @@ export const Navbar = () => {
 
           <div className="flex flex-col gap-2 pt-2 text-sm font-semibold text-stone-800">
             <Link to="/shop" onClick={() => setMobileMenuOpen(false)} className="py-2 border-b border-stone-100">Shop All</Link>
-            <Link to="/shop?gender=men" onClick={() => setMobileMenuOpen(false)} className="py-2 border-b border-stone-100">Men</Link>
-            <Link to="/shop?gender=women" onClick={() => setMobileMenuOpen(false)} className="py-2 border-b border-stone-100">Women</Link>
+            <Link to="/shop?category=checks-shirt" onClick={() => setMobileMenuOpen(false)} className="py-2 border-b border-stone-100">Checks Shirt</Link>
+            <Link to="/shop?category=t-shirt" onClick={() => setMobileMenuOpen(false)} className="py-2 border-b border-stone-100">T-Shirts</Link>
+            <Link to="/shop?category=hoodies-sweatshirt" onClick={() => setMobileMenuOpen(false)} className="py-2 border-b border-stone-100">Hoodies & Sweatshirts</Link>
+            <Link to="/shop?category=pants-jeans" onClick={() => setMobileMenuOpen(false)} className="py-2 border-b border-stone-100">Jeans & Pants</Link>
+            <Link to="/shop?category=cargo" onClick={() => setMobileMenuOpen(false)} className="py-2 border-b border-stone-100">Cargo Pants</Link>
             <Link to="/tryon" onClick={() => setMobileMenuOpen(false)} className="py-2.5 flex items-center gap-2 text-amber-600 font-bold">
               <Sparkles className="w-4 h-4" />
               AI Virtual Try-On Studio

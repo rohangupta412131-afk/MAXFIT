@@ -7,7 +7,8 @@ import {
   addToCart,
   updateCartItem,
   removeFromCart,
-  applyCoupon
+  applyCoupon,
+  getBuyNowPreview
 } from '../controllers/cartController.js';
 
 const router = Router();
@@ -34,6 +35,7 @@ const couponSchema = z.object({
 router.use(requireAuth);
 
 router.get('/', getCart);
+router.get('/buy-now-preview', getBuyNowPreview);
 router.post('/', validate(addCartSchema), addToCart);
 router.patch('/:id', validate(updateCartSchema), updateCartItem);
 router.delete('/:id', removeFromCart);

@@ -57,7 +57,7 @@ export const Footer = () => {
             MAXFIT
           </Link>
           <p className="text-xs text-stone-400 max-w-sm leading-relaxed">
-            A next-generation Direct-to-Consumer fashion brand integrating generative diffusion neural networks with high-density architectural streetwear and modern tailoring.
+            MAX-FIT Men's Clothing: precision tailoring, heavyweight textiles, and generative virtual try-on designed exclusively for men.
           </p>
           <div className="pt-2 text-[11px] text-stone-500">
             Powered by IDM-VTON (Diffusion High-Fidelity Try-On) & Supabase Postgres.
@@ -65,13 +65,15 @@ export const Footer = () => {
         </div>
 
         <div>
-          <h4 className="text-white font-bold text-xs uppercase tracking-wider mb-4">Shop Collections</h4>
+          <h4 className="text-white font-bold text-xs uppercase tracking-wider mb-4">Men's Collections</h4>
           <ul className="space-y-2.5 text-xs">
-            <li><Link to="/shop?category=t-shirts-polos" className="hover:text-white transition">T-Shirts & Polos</Link></li>
-            <li><Link to="/shop?category=shirts-formals" className="hover:text-white transition">Shirts & Formals</Link></li>
-            <li><Link to="/shop?category=hoodies-sweatshirts" className="hover:text-white transition">Hoodies & Sweatshirts</Link></li>
-            <li><Link to="/shop?category=jackets-outerwear" className="hover:text-white transition">Jackets & Outerwear</Link></li>
-            <li><Link to="/shop?sort=newest" className="hover:text-white transition">New Releases</Link></li>
+            <li><Link to="/shop?category=checks-shirt" className="hover:text-white transition">Checks Shirt</Link></li>
+            <li><Link to="/shop?category=t-shirt" className="hover:text-white transition">T-shirt</Link></li>
+            <li><Link to="/shop?category=hoodies-sweatshirt" className="hover:text-white transition">Hoodies & Sweatshirt</Link></li>
+            <li><Link to="/shop?category=casual-shirts" className="hover:text-white transition">Casual Shirts</Link></li>
+            <li><Link to="/shop?category=mens-jacket" className="hover:text-white transition">Men's Jacket</Link></li>
+            <li><Link to="/shop?category=pants-jeans" className="hover:text-white transition">Pants Jeans</Link></li>
+            <li><Link to="/shop?category=cargo" className="hover:text-white transition">Cargo</Link></li>
           </ul>
         </div>
 

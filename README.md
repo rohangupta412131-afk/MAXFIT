@@ -66,12 +66,12 @@ graph TD
    - "My Saved Fits" gallery with storage management and permanent deletion.
 
 2. **Biometric Size Recommender Engine**
-   - Calculates ideal sizing (XS through XXL) using height, weight, optional chest/waist measurements, and fit preference (Slim, Regular, Relaxed).
+   - Calculates ideal sizing (S through XXL for tops, 28 through 38 for bottoms) using height, weight, optional chest/waist measurements, and fit preference (Slim, Regular, Relaxed).
    - Real-time variant stock check for the recommended size.
    - Saves biometrics to customer profile for instant future checkout.
 
 3. **Storefront & Catalog**
-   - Fast catalogue search and multi-facet filtering (categories, gender, size, price, in-stock only).
+   - Fast catalogue search and multi-facet filtering (categories, size, price, in-stock only).
    - Responsive product cards with image hover swap and quick try-on shortcuts.
    - Interactive size guide modal with category measurements in centimeters.
 

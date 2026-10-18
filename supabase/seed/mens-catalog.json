@@ -1,0 +1,3739 @@
+[
+  {
+    "id_temp": 1,
+    "name": "Khaki Multi-Pocket Tactical Relaxed Cargo Pants",
+    "slug": "khaki-multi-pocket-tactical-relaxed-cargo-pants",
+    "category": "Cargo",
+    "category_slug": "cargo",
+    "size_type": "bottom",
+    "description": "Premium men's cargo tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Heavyweight Cotton Twill with Reinforced Ripstop Paneling",
+    "care": "Machine wash cold with similar colours, iron on reverse, do not bleach",
+    "colour": "Khaki",
+    "price": 899,
+    "mrp": 1199,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.47 AM.jpeg",
+    "local_path": "client/public/Products Image/Cargo/WhatsApp Image 2026-10-18 at 10.15.47 AM.jpeg",
+    "storage_path": "products/cargo/khaki-multi-pocket-tactical-relaxed-cargo-pants/1.jpeg",
+    "tryon_enabled": false,
+    "garment_des": "men's khaki heavy cotton multi-pocket cargo pants",
+    "is_featured": true,
+    "is_new": true,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": true,
+    "variants": [
+      {
+        "size": "28",
+        "color": "Khaki",
+        "sku": "MXF-CRG-001-KHA-28",
+        "stock": 0,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "30",
+        "color": "Khaki",
+        "sku": "MXF-CRG-001-KHA-30",
+        "stock": 1,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "32",
+        "color": "Khaki",
+        "sku": "MXF-CRG-001-KHA-32",
+        "stock": 0,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "34",
+        "color": "Khaki",
+        "sku": "MXF-CRG-001-KHA-34",
+        "stock": 0,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "36",
+        "color": "Khaki",
+        "sku": "MXF-CRG-001-KHA-36",
+        "stock": 0,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "38",
+        "color": "Khaki",
+        "sku": "MXF-CRG-001-KHA-38",
+        "stock": 0,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 2,
+    "name": "Olive Rugged Utility Tapered Cotton Cargo Pants",
+    "slug": "olive-rugged-utility-tapered-cotton-cargo-pants",
+    "category": "Cargo",
+    "category_slug": "cargo",
+    "size_type": "bottom",
+    "description": "Premium men's cargo tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Heavyweight Cotton Twill with Reinforced Ripstop Paneling",
+    "care": "Machine wash cold with similar colours, iron on reverse, do not bleach",
+    "colour": "Olive",
+    "price": 949,
+    "mrp": 1299,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.48 AM (1).jpeg",
+    "local_path": "client/public/Products Image/Cargo/WhatsApp Image 2026-10-18 at 10.15.48 AM (1).jpeg",
+    "storage_path": "products/cargo/olive-rugged-utility-tapered-cotton-cargo-pants/1.jpeg",
+    "tryon_enabled": false,
+    "garment_des": "men's olive heavy cotton multi-pocket cargo pants",
+    "is_featured": true,
+    "is_new": true,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "28",
+        "color": "Olive",
+        "sku": "MXF-CRG-002-OLI-28",
+        "stock": 26,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "30",
+        "color": "Olive",
+        "sku": "MXF-CRG-002-OLI-30",
+        "stock": 19,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "32",
+        "color": "Olive",
+        "sku": "MXF-CRG-002-OLI-32",
+        "stock": 15,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "34",
+        "color": "Olive",
+        "sku": "MXF-CRG-002-OLI-34",
+        "stock": 14,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "36",
+        "color": "Olive",
+        "sku": "MXF-CRG-002-OLI-36",
+        "stock": 21,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "38",
+        "color": "Olive",
+        "sku": "MXF-CRG-002-OLI-38",
+        "stock": 2,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 3,
+    "name": "Black Everyday Streetwear Elastic Cuff Cargo Pants",
+    "slug": "black-everyday-streetwear-elastic-cuff-cargo-pants",
+    "category": "Cargo",
+    "category_slug": "cargo",
+    "size_type": "bottom",
+    "description": "Premium men's cargo tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Heavyweight Cotton Twill with Reinforced Ripstop Paneling",
+    "care": "Machine wash cold with similar colours, iron on reverse, do not bleach",
+    "colour": "Black",
+    "price": 949,
+    "mrp": 1219,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.48 AM.jpeg",
+    "local_path": "client/public/Products Image/Cargo/WhatsApp Image 2026-10-18 at 10.15.48 AM.jpeg",
+    "storage_path": "products/cargo/black-everyday-streetwear-elastic-cuff-cargo-pants/1.jpeg",
+    "tryon_enabled": false,
+    "garment_des": "men's black heavy cotton multi-pocket cargo pants",
+    "is_featured": true,
+    "is_new": true,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "28",
+        "color": "Black",
+        "sku": "MXF-CRG-003-BLA-28",
+        "stock": 9,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "30",
+        "color": "Black",
+        "sku": "MXF-CRG-003-BLA-30",
+        "stock": 24,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "32",
+        "color": "Black",
+        "sku": "MXF-CRG-003-BLA-32",
+        "stock": 20,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "34",
+        "color": "Black",
+        "sku": "MXF-CRG-003-BLA-34",
+        "stock": 19,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "36",
+        "color": "Black",
+        "sku": "MXF-CRG-003-BLA-36",
+        "stock": 8,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "38",
+        "color": "Black",
+        "sku": "MXF-CRG-003-BLA-38",
+        "stock": 11,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 4,
+    "name": "Charcoal Linen Blend Relaxed Resort Shirt",
+    "slug": "charcoal-linen-blend-relaxed-resort-shirt",
+    "category": "Casual Shirts",
+    "category_slug": "casual-shirts",
+    "size_type": "top",
+    "description": "Premium men's casual shirts tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Pre-Washed Pure Cotton Linen Blend",
+    "care": "Gentle machine wash cold, hang dry in shade, medium iron",
+    "colour": "Charcoal",
+    "price": 599,
+    "mrp": 819,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.51 AM (2).jpeg",
+    "local_path": "client/public/Products Image/Casual Shirts/WhatsApp Image 2026-10-18 at 10.15.51 AM (2).jpeg",
+    "storage_path": "products/casual-shirts/charcoal-linen-blend-relaxed-resort-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve charcoal breathable cotton casual button-down shirt",
+    "is_featured": false,
+    "is_new": true,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-004-CHA-S",
+        "stock": 26,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-004-CHA-M",
+        "stock": 18,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-004-CHA-L",
+        "stock": 3,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-004-CHA-XL",
+        "stock": 9,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-004-CHA-XXL",
+        "stock": 25,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 5,
+    "name": "Green Classic Oxford Button-Down Casual Shirt",
+    "slug": "green-classic-oxford-button-down-casual-shirt",
+    "category": "Casual Shirts",
+    "category_slug": "casual-shirts",
+    "size_type": "top",
+    "description": "Premium men's casual shirts tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Pre-Washed Pure Cotton Linen Blend",
+    "care": "Gentle machine wash cold, hang dry in shade, medium iron",
+    "colour": "Green",
+    "price": 899,
+    "mrp": 1299,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.52 AM (1).jpeg",
+    "local_path": "client/public/Products Image/Casual Shirts/WhatsApp Image 2026-10-18 at 10.15.52 AM (1).jpeg",
+    "storage_path": "products/casual-shirts/green-classic-oxford-button-down-casual-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve green breathable cotton casual button-down shirt",
+    "is_featured": false,
+    "is_new": true,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Green",
+        "sku": "MXF-CSH-005-GRE-S",
+        "stock": 23,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Green",
+        "sku": "MXF-CSH-005-GRE-M",
+        "stock": 16,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Green",
+        "sku": "MXF-CSH-005-GRE-L",
+        "stock": 5,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Green",
+        "sku": "MXF-CSH-005-GRE-XL",
+        "stock": 20,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Green",
+        "sku": "MXF-CSH-005-GRE-XXL",
+        "stock": 3,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 6,
+    "name": "Black Textured Slub Cotton Regular Shirt",
+    "slug": "black-textured-slub-cotton-regular-shirt",
+    "category": "Casual Shirts",
+    "category_slug": "casual-shirts",
+    "size_type": "top",
+    "description": "Premium men's casual shirts tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Pre-Washed Pure Cotton Linen Blend",
+    "care": "Gentle machine wash cold, hang dry in shade, medium iron",
+    "colour": "Black",
+    "price": 499,
+    "mrp": 609,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.52 AM (2).jpeg",
+    "local_path": "client/public/Products Image/Casual Shirts/WhatsApp Image 2026-10-18 at 10.15.52 AM (2).jpeg",
+    "storage_path": "products/casual-shirts/black-textured-slub-cotton-regular-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve black breathable cotton casual button-down shirt",
+    "is_featured": true,
+    "is_new": true,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Black",
+        "sku": "MXF-CSH-006-BLA-S",
+        "stock": 27,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Black",
+        "sku": "MXF-CSH-006-BLA-M",
+        "stock": 11,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Black",
+        "sku": "MXF-CSH-006-BLA-L",
+        "stock": 20,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Black",
+        "sku": "MXF-CSH-006-BLA-XL",
+        "stock": 4,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Black",
+        "sku": "MXF-CSH-006-BLA-XXL",
+        "stock": 1,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 7,
+    "name": "Blue Camp Collar Short Sleeve Casual Shirt",
+    "slug": "blue-camp-collar-short-sleeve-casual-shirt",
+    "category": "Casual Shirts",
+    "category_slug": "casual-shirts",
+    "size_type": "top",
+    "description": "Premium men's casual shirts tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Pre-Washed Pure Cotton Linen Blend",
+    "care": "Gentle machine wash cold, hang dry in shade, medium iron",
+    "colour": "Blue",
+    "price": 649,
+    "mrp": 899,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.52 AM.jpeg",
+    "local_path": "client/public/Products Image/Casual Shirts/WhatsApp Image 2026-10-18 at 10.15.52 AM.jpeg",
+    "storage_path": "products/casual-shirts/blue-camp-collar-short-sleeve-casual-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve blue breathable cotton casual button-down shirt",
+    "is_featured": false,
+    "is_new": true,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Blue",
+        "sku": "MXF-CSH-007-BLU-S",
+        "stock": 29,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Blue",
+        "sku": "MXF-CSH-007-BLU-M",
+        "stock": 28,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Blue",
+        "sku": "MXF-CSH-007-BLU-L",
+        "stock": 24,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Blue",
+        "sku": "MXF-CSH-007-BLU-XL",
+        "stock": 18,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Blue",
+        "sku": "MXF-CSH-007-BLU-XXL",
+        "stock": 0,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 8,
+    "name": "Grey Mandarin Collar Linen Casual Shirt",
+    "slug": "grey-mandarin-collar-linen-casual-shirt",
+    "category": "Casual Shirts",
+    "category_slug": "casual-shirts",
+    "size_type": "top",
+    "description": "Premium men's casual shirts tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Pre-Washed Pure Cotton Linen Blend",
+    "care": "Gentle machine wash cold, hang dry in shade, medium iron",
+    "colour": "Grey",
+    "price": 749,
+    "mrp": 1039,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.53 AM (1).jpeg",
+    "local_path": "client/public/Products Image/Casual Shirts/WhatsApp Image 2026-10-18 at 10.15.53 AM (1).jpeg",
+    "storage_path": "products/casual-shirts/grey-mandarin-collar-linen-casual-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve grey breathable cotton casual button-down shirt",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Grey",
+        "sku": "MXF-CSH-008-GRE-S",
+        "stock": 22,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Grey",
+        "sku": "MXF-CSH-008-GRE-M",
+        "stock": 13,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Grey",
+        "sku": "MXF-CSH-008-GRE-L",
+        "stock": 20,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Grey",
+        "sku": "MXF-CSH-008-GRE-XL",
+        "stock": 5,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Grey",
+        "sku": "MXF-CSH-008-GRE-XXL",
+        "stock": 28,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 9,
+    "name": "Blue Washed Chambray Utility Casual Shirt",
+    "slug": "blue-washed-chambray-utility-casual-shirt",
+    "category": "Casual Shirts",
+    "category_slug": "casual-shirts",
+    "size_type": "top",
+    "description": "Premium men's casual shirts tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Pre-Washed Pure Cotton Linen Blend",
+    "care": "Gentle machine wash cold, hang dry in shade, medium iron",
+    "colour": "Blue",
+    "price": 899,
+    "mrp": 1099,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.53 AM (2).jpeg",
+    "local_path": "client/public/Products Image/Casual Shirts/WhatsApp Image 2026-10-18 at 10.15.53 AM (2).jpeg",
+    "storage_path": "products/casual-shirts/blue-washed-chambray-utility-casual-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve blue breathable cotton casual button-down shirt",
+    "is_featured": true,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Blue",
+        "sku": "MXF-CSH-009-BLU-S",
+        "stock": 19,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Blue",
+        "sku": "MXF-CSH-009-BLU-M",
+        "stock": 8,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Blue",
+        "sku": "MXF-CSH-009-BLU-L",
+        "stock": 15,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Blue",
+        "sku": "MXF-CSH-009-BLU-XL",
+        "stock": 18,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Blue",
+        "sku": "MXF-CSH-009-BLU-XXL",
+        "stock": 2,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 10,
+    "name": "Charcoal Minimalist Poplin Everyday Casual Shirt",
+    "slug": "charcoal-minimalist-poplin-everyday-casual-shirt",
+    "category": "Casual Shirts",
+    "category_slug": "casual-shirts",
+    "size_type": "top",
+    "description": "Premium men's casual shirts tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Pre-Washed Pure Cotton Linen Blend",
+    "care": "Gentle machine wash cold, hang dry in shade, medium iron",
+    "colour": "Charcoal",
+    "price": 699,
+    "mrp": 989,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.53 AM.jpeg",
+    "local_path": "client/public/Products Image/Casual Shirts/WhatsApp Image 2026-10-18 at 10.15.53 AM.jpeg",
+    "storage_path": "products/casual-shirts/charcoal-minimalist-poplin-everyday-casual-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve charcoal breathable cotton casual button-down shirt",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-010-CHA-S",
+        "stock": 18,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-010-CHA-M",
+        "stock": 21,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-010-CHA-L",
+        "stock": 5,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-010-CHA-XL",
+        "stock": 18,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-010-CHA-XXL",
+        "stock": 23,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 11,
+    "name": "Charcoal Waffle Knit Breathable Casual Shirt",
+    "slug": "charcoal-waffle-knit-breathable-casual-shirt",
+    "category": "Casual Shirts",
+    "category_slug": "casual-shirts",
+    "size_type": "top",
+    "description": "Premium men's casual shirts tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Pre-Washed Pure Cotton Linen Blend",
+    "care": "Gentle machine wash cold, hang dry in shade, medium iron",
+    "colour": "Charcoal",
+    "price": 699,
+    "mrp": 979,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.54 AM (1).jpeg",
+    "local_path": "client/public/Products Image/Casual Shirts/WhatsApp Image 2026-10-18 at 10.15.54 AM (1).jpeg",
+    "storage_path": "products/casual-shirts/charcoal-waffle-knit-breathable-casual-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve charcoal breathable cotton casual button-down shirt",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-011-CHA-S",
+        "stock": 10,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-011-CHA-M",
+        "stock": 4,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-011-CHA-L",
+        "stock": 21,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-011-CHA-XL",
+        "stock": 1,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-011-CHA-XXL",
+        "stock": 3,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 12,
+    "name": "Khaki Textured Dobby Long Sleeve Shirt",
+    "slug": "khaki-textured-dobby-long-sleeve-shirt",
+    "category": "Casual Shirts",
+    "category_slug": "casual-shirts",
+    "size_type": "top",
+    "description": "Premium men's casual shirts tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Pre-Washed Pure Cotton Linen Blend",
+    "care": "Gentle machine wash cold, hang dry in shade, medium iron",
+    "colour": "Khaki",
+    "price": 499,
+    "mrp": 629,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.54 AM (2).jpeg",
+    "local_path": "client/public/Products Image/Casual Shirts/WhatsApp Image 2026-10-18 at 10.15.54 AM (2).jpeg",
+    "storage_path": "products/casual-shirts/khaki-textured-dobby-long-sleeve-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve khaki breathable cotton casual button-down shirt",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Khaki",
+        "sku": "MXF-CSH-012-KHA-S",
+        "stock": 24,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Khaki",
+        "sku": "MXF-CSH-012-KHA-M",
+        "stock": 23,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Khaki",
+        "sku": "MXF-CSH-012-KHA-L",
+        "stock": 10,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Khaki",
+        "sku": "MXF-CSH-012-KHA-XL",
+        "stock": 2,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Khaki",
+        "sku": "MXF-CSH-012-KHA-XXL",
+        "stock": 3,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 13,
+    "name": "Charcoal Structured Twill Everyday Casual Shirt",
+    "slug": "charcoal-structured-twill-everyday-casual-shirt",
+    "category": "Casual Shirts",
+    "category_slug": "casual-shirts",
+    "size_type": "top",
+    "description": "Premium men's casual shirts tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Pre-Washed Pure Cotton Linen Blend",
+    "care": "Gentle machine wash cold, hang dry in shade, medium iron",
+    "colour": "Charcoal",
+    "price": 799,
+    "mrp": 1049,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.54 AM.jpeg",
+    "local_path": "client/public/Products Image/Casual Shirts/WhatsApp Image 2026-10-18 at 10.15.54 AM.jpeg",
+    "storage_path": "products/casual-shirts/charcoal-structured-twill-everyday-casual-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve charcoal breathable cotton casual button-down shirt",
+    "is_featured": false,
+    "is_new": true,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-013-CHA-S",
+        "stock": 3,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-013-CHA-M",
+        "stock": 10,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-013-CHA-L",
+        "stock": 15,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-013-CHA-XL",
+        "stock": 0,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-013-CHA-XXL",
+        "stock": 26,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 14,
+    "name": "Beige Lightweight Breathable Summer Shirt",
+    "slug": "beige-lightweight-breathable-summer-shirt",
+    "category": "Casual Shirts",
+    "category_slug": "casual-shirts",
+    "size_type": "top",
+    "description": "Premium men's casual shirts tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Pre-Washed Pure Cotton Linen Blend",
+    "care": "Gentle machine wash cold, hang dry in shade, medium iron",
+    "colour": "Beige",
+    "price": 599,
+    "mrp": 859,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.59 AM (3).jpeg",
+    "local_path": "client/public/Products Image/Casual Shirts/WhatsApp Image 2026-10-18 at 10.15.59 AM (3).jpeg",
+    "storage_path": "products/casual-shirts/beige-lightweight-breathable-summer-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve beige breathable cotton casual button-down shirt",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Beige",
+        "sku": "MXF-CSH-014-BEI-S",
+        "stock": 17,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Beige",
+        "sku": "MXF-CSH-014-BEI-M",
+        "stock": 30,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Beige",
+        "sku": "MXF-CSH-014-BEI-L",
+        "stock": 3,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Beige",
+        "sku": "MXF-CSH-014-BEI-XL",
+        "stock": 0,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Beige",
+        "sku": "MXF-CSH-014-BEI-XXL",
+        "stock": 1,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 15,
+    "name": "Navy Tailored Cutaway Collar Casual Shirt",
+    "slug": "navy-tailored-cutaway-collar-casual-shirt",
+    "category": "Casual Shirts",
+    "category_slug": "casual-shirts",
+    "size_type": "top",
+    "description": "Premium men's casual shirts tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Pre-Washed Pure Cotton Linen Blend",
+    "care": "Gentle machine wash cold, hang dry in shade, medium iron",
+    "colour": "Navy",
+    "price": 749,
+    "mrp": 969,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.00 AM.jpeg",
+    "local_path": "client/public/Products Image/Casual Shirts/WhatsApp Image 2026-10-18 at 10.16.00 AM.jpeg",
+    "storage_path": "products/casual-shirts/navy-tailored-cutaway-collar-casual-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve navy breathable cotton casual button-down shirt",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Navy",
+        "sku": "MXF-CSH-015-NAV-S",
+        "stock": 16,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Navy",
+        "sku": "MXF-CSH-015-NAV-M",
+        "stock": 30,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Navy",
+        "sku": "MXF-CSH-015-NAV-L",
+        "stock": 10,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Navy",
+        "sku": "MXF-CSH-015-NAV-XL",
+        "stock": 1,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Navy",
+        "sku": "MXF-CSH-015-NAV-XXL",
+        "stock": 8,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 16,
+    "name": "Khaki Vintage Washed Regular Fit Shirt",
+    "slug": "khaki-vintage-washed-regular-fit-shirt",
+    "category": "Casual Shirts",
+    "category_slug": "casual-shirts",
+    "size_type": "top",
+    "description": "Premium men's casual shirts tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Pre-Washed Pure Cotton Linen Blend",
+    "care": "Gentle machine wash cold, hang dry in shade, medium iron",
+    "colour": "Khaki",
+    "price": 549,
+    "mrp": 719,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.02 AM (1).jpeg",
+    "local_path": "client/public/Products Image/Casual Shirts/WhatsApp Image 2026-10-18 at 10.16.02 AM (1).jpeg",
+    "storage_path": "products/casual-shirts/khaki-vintage-washed-regular-fit-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve khaki breathable cotton casual button-down shirt",
+    "is_featured": false,
+    "is_new": true,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Khaki",
+        "sku": "MXF-CSH-016-KHA-S",
+        "stock": 15,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Khaki",
+        "sku": "MXF-CSH-016-KHA-M",
+        "stock": 28,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Khaki",
+        "sku": "MXF-CSH-016-KHA-L",
+        "stock": 17,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Khaki",
+        "sku": "MXF-CSH-016-KHA-XL",
+        "stock": 24,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Khaki",
+        "sku": "MXF-CSH-016-KHA-XXL",
+        "stock": 3,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 17,
+    "name": "Khaki Brushed Cotton Utility Work Shirt",
+    "slug": "khaki-brushed-cotton-utility-work-shirt",
+    "category": "Casual Shirts",
+    "category_slug": "casual-shirts",
+    "size_type": "top",
+    "description": "Premium men's casual shirts tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Pre-Washed Pure Cotton Linen Blend",
+    "care": "Gentle machine wash cold, hang dry in shade, medium iron",
+    "colour": "Khaki",
+    "price": 649,
+    "mrp": 919,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.02 AM (2).jpeg",
+    "local_path": "client/public/Products Image/Casual Shirts/WhatsApp Image 2026-10-18 at 10.16.02 AM (2).jpeg",
+    "storage_path": "products/casual-shirts/khaki-brushed-cotton-utility-work-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve khaki breathable cotton casual button-down shirt",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Khaki",
+        "sku": "MXF-CSH-017-KHA-S",
+        "stock": 5,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Khaki",
+        "sku": "MXF-CSH-017-KHA-M",
+        "stock": 27,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Khaki",
+        "sku": "MXF-CSH-017-KHA-L",
+        "stock": 4,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Khaki",
+        "sku": "MXF-CSH-017-KHA-XL",
+        "stock": 18,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Khaki",
+        "sku": "MXF-CSH-017-KHA-XXL",
+        "stock": 12,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 18,
+    "name": "Maroon Casual Spread Collar Slub Shirt",
+    "slug": "maroon-casual-spread-collar-slub-shirt",
+    "category": "Casual Shirts",
+    "category_slug": "casual-shirts",
+    "size_type": "top",
+    "description": "Premium men's casual shirts tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Pre-Washed Pure Cotton Linen Blend",
+    "care": "Gentle machine wash cold, hang dry in shade, medium iron",
+    "colour": "Maroon",
+    "price": 849,
+    "mrp": 1019,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.02 AM (3).jpeg",
+    "local_path": "client/public/Products Image/Casual Shirts/WhatsApp Image 2026-10-18 at 10.16.02 AM (3).jpeg",
+    "storage_path": "products/casual-shirts/maroon-casual-spread-collar-slub-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve maroon breathable cotton casual button-down shirt",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Maroon",
+        "sku": "MXF-CSH-018-MAR-S",
+        "stock": 30,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Maroon",
+        "sku": "MXF-CSH-018-MAR-M",
+        "stock": 8,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Maroon",
+        "sku": "MXF-CSH-018-MAR-L",
+        "stock": 2,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Maroon",
+        "sku": "MXF-CSH-018-MAR-XL",
+        "stock": 3,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Maroon",
+        "sku": "MXF-CSH-018-MAR-XXL",
+        "stock": 28,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 19,
+    "name": "Grey Easy Care Relaxed Cotton Casual Shirt",
+    "slug": "grey-easy-care-relaxed-cotton-casual-shirt",
+    "category": "Casual Shirts",
+    "category_slug": "casual-shirts",
+    "size_type": "top",
+    "description": "Premium men's casual shirts tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Pre-Washed Pure Cotton Linen Blend",
+    "care": "Gentle machine wash cold, hang dry in shade, medium iron",
+    "colour": "Grey",
+    "price": 899,
+    "mrp": 1109,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.02 AM.jpeg",
+    "local_path": "client/public/Products Image/Casual Shirts/WhatsApp Image 2026-10-18 at 10.16.02 AM.jpeg",
+    "storage_path": "products/casual-shirts/grey-easy-care-relaxed-cotton-casual-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve grey breathable cotton casual button-down shirt",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Grey",
+        "sku": "MXF-CSH-019-GRE-S",
+        "stock": 5,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Grey",
+        "sku": "MXF-CSH-019-GRE-M",
+        "stock": 24,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Grey",
+        "sku": "MXF-CSH-019-GRE-L",
+        "stock": 4,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Grey",
+        "sku": "MXF-CSH-019-GRE-XL",
+        "stock": 11,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Grey",
+        "sku": "MXF-CSH-019-GRE-XXL",
+        "stock": 1,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 20,
+    "name": "Charcoal Pure Cotton Everyday Long Sleeve Shirt",
+    "slug": "charcoal-pure-cotton-everyday-long-sleeve-shirt",
+    "category": "Casual Shirts",
+    "category_slug": "casual-shirts",
+    "size_type": "top",
+    "description": "Premium men's casual shirts tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Pre-Washed Pure Cotton Linen Blend",
+    "care": "Gentle machine wash cold, hang dry in shade, medium iron",
+    "colour": "Charcoal",
+    "price": 499,
+    "mrp": 659,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.03 AM.jpeg",
+    "local_path": "client/public/Products Image/Casual Shirts/WhatsApp Image 2026-10-18 at 10.16.03 AM.jpeg",
+    "storage_path": "products/casual-shirts/charcoal-pure-cotton-everyday-long-sleeve-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve charcoal breathable cotton casual button-down shirt",
+    "is_featured": false,
+    "is_new": true,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-020-CHA-S",
+        "stock": 5,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-020-CHA-M",
+        "stock": 2,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-020-CHA-L",
+        "stock": 4,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-020-CHA-XL",
+        "stock": 0,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Charcoal",
+        "sku": "MXF-CSH-020-CHA-XXL",
+        "stock": 9,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 21,
+    "name": "Grey Gingham Check Casual Shirt",
+    "slug": "grey-gingham-check-casual-shirt",
+    "category": "Checks Shirt",
+    "category_slug": "checks-shirt",
+    "size_type": "top",
+    "description": "Premium men's checks shirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "100% Combed Cotton Flannel & Twill",
+    "care": "Machine wash cold with like colours, warm iron if needed, do not bleach",
+    "colour": "Grey",
+    "price": 749,
+    "mrp": 1029,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.56 AM (2).jpeg",
+    "local_path": "client/public/Products Image/Checks Shirt/WhatsApp Image 2026-10-18 at 10.15.56 AM (2).jpeg",
+    "storage_path": "products/checks-shirt/grey-gingham-check-casual-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve grey checks cotton button-down shirt",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Grey",
+        "sku": "MXF-CHK-021-GRE-S",
+        "stock": 8,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Grey",
+        "sku": "MXF-CHK-021-GRE-M",
+        "stock": 21,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Grey",
+        "sku": "MXF-CHK-021-GRE-L",
+        "stock": 25,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Grey",
+        "sku": "MXF-CHK-021-GRE-XL",
+        "stock": 3,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Grey",
+        "sku": "MXF-CHK-021-GRE-XXL",
+        "stock": 10,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 22,
+    "name": "Red Tartans Brushed Cotton Shirt",
+    "slug": "red-tartans-brushed-cotton-shirt",
+    "category": "Checks Shirt",
+    "category_slug": "checks-shirt",
+    "size_type": "top",
+    "description": "Premium men's checks shirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "100% Combed Cotton Flannel & Twill",
+    "care": "Machine wash cold with like colours, warm iron if needed, do not bleach",
+    "colour": "Red",
+    "price": 599,
+    "mrp": 739,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.57 AM (1).jpeg",
+    "local_path": "client/public/Products Image/Checks Shirt/WhatsApp Image 2026-10-18 at 10.15.57 AM (1).jpeg",
+    "storage_path": "products/checks-shirt/red-tartans-brushed-cotton-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve red checks cotton button-down shirt",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Red",
+        "sku": "MXF-CHK-022-RED-S",
+        "stock": 25,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Red",
+        "sku": "MXF-CHK-022-RED-M",
+        "stock": 4,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Red",
+        "sku": "MXF-CHK-022-RED-L",
+        "stock": 18,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Red",
+        "sku": "MXF-CHK-022-RED-XL",
+        "stock": 22,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Red",
+        "sku": "MXF-CHK-022-RED-XXL",
+        "stock": 18,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 23,
+    "name": "Blue Buffalo Check Regular Shirt",
+    "slug": "blue-buffalo-check-regular-shirt",
+    "category": "Checks Shirt",
+    "category_slug": "checks-shirt",
+    "size_type": "top",
+    "description": "Premium men's checks shirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "100% Combed Cotton Flannel & Twill",
+    "care": "Machine wash cold with like colours, warm iron if needed, do not bleach",
+    "colour": "Blue",
+    "price": 849,
+    "mrp": 1109,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.57 AM.jpeg",
+    "local_path": "client/public/Products Image/Checks Shirt/WhatsApp Image 2026-10-18 at 10.15.57 AM.jpeg",
+    "storage_path": "products/checks-shirt/blue-buffalo-check-regular-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve blue checks cotton button-down shirt",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Blue",
+        "sku": "MXF-CHK-023-BLU-S",
+        "stock": 26,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Blue",
+        "sku": "MXF-CHK-023-BLU-M",
+        "stock": 28,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Blue",
+        "sku": "MXF-CHK-023-BLU-L",
+        "stock": 11,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Blue",
+        "sku": "MXF-CHK-023-BLU-XL",
+        "stock": 17,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Blue",
+        "sku": "MXF-CHK-023-BLU-XXL",
+        "stock": 15,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 24,
+    "name": "Grey Windowpane Tailored Shirt",
+    "slug": "grey-windowpane-tailored-shirt",
+    "category": "Checks Shirt",
+    "category_slug": "checks-shirt",
+    "size_type": "top",
+    "description": "Premium men's checks shirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "100% Combed Cotton Flannel & Twill",
+    "care": "Machine wash cold with like colours, warm iron if needed, do not bleach",
+    "colour": "Grey",
+    "price": 649,
+    "mrp": 829,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.58 AM (1).jpeg",
+    "local_path": "client/public/Products Image/Checks Shirt/WhatsApp Image 2026-10-18 at 10.15.58 AM (1).jpeg",
+    "storage_path": "products/checks-shirt/grey-windowpane-tailored-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve grey checks cotton button-down shirt",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Grey",
+        "sku": "MXF-CHK-024-GRE-S",
+        "stock": 30,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Grey",
+        "sku": "MXF-CHK-024-GRE-M",
+        "stock": 8,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Grey",
+        "sku": "MXF-CHK-024-GRE-L",
+        "stock": 17,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Grey",
+        "sku": "MXF-CHK-024-GRE-XL",
+        "stock": 19,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Grey",
+        "sku": "MXF-CHK-024-GRE-XXL",
+        "stock": 3,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 25,
+    "name": "Khaki Micro Check Casual Shirt",
+    "slug": "khaki-micro-check-casual-shirt",
+    "category": "Checks Shirt",
+    "category_slug": "checks-shirt",
+    "size_type": "top",
+    "description": "Premium men's checks shirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "100% Combed Cotton Flannel & Twill",
+    "care": "Machine wash cold with like colours, warm iron if needed, do not bleach",
+    "colour": "Khaki",
+    "price": 649,
+    "mrp": 939,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.58 AM (2).jpeg",
+    "local_path": "client/public/Products Image/Checks Shirt/WhatsApp Image 2026-10-18 at 10.15.58 AM (2).jpeg",
+    "storage_path": "products/checks-shirt/khaki-micro-check-casual-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve khaki checks cotton button-down shirt",
+    "is_featured": true,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Khaki",
+        "sku": "MXF-CHK-025-KHA-S",
+        "stock": 14,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Khaki",
+        "sku": "MXF-CHK-025-KHA-M",
+        "stock": 11,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Khaki",
+        "sku": "MXF-CHK-025-KHA-L",
+        "stock": 3,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Khaki",
+        "sku": "MXF-CHK-025-KHA-XL",
+        "stock": 28,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Khaki",
+        "sku": "MXF-CHK-025-KHA-XXL",
+        "stock": 15,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 26,
+    "name": "Grey Lumberjack Heavy Flannel Shirt",
+    "slug": "grey-lumberjack-heavy-flannel-shirt",
+    "category": "Checks Shirt",
+    "category_slug": "checks-shirt",
+    "size_type": "top",
+    "description": "Premium men's checks shirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "100% Combed Cotton Flannel & Twill",
+    "care": "Machine wash cold with like colours, warm iron if needed, do not bleach",
+    "colour": "Grey",
+    "price": 799,
+    "mrp": 1029,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.58 AM.jpeg",
+    "local_path": "client/public/Products Image/Checks Shirt/WhatsApp Image 2026-10-18 at 10.15.58 AM.jpeg",
+    "storage_path": "products/checks-shirt/grey-lumberjack-heavy-flannel-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve grey checks cotton button-down shirt",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Grey",
+        "sku": "MXF-CHK-026-GRE-S",
+        "stock": 11,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Grey",
+        "sku": "MXF-CHK-026-GRE-M",
+        "stock": 8,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Grey",
+        "sku": "MXF-CHK-026-GRE-L",
+        "stock": 4,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Grey",
+        "sku": "MXF-CHK-026-GRE-XL",
+        "stock": 2,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Grey",
+        "sku": "MXF-CHK-026-GRE-XXL",
+        "stock": 19,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 27,
+    "name": "Charcoal Heritage Plaid Relaxed Shirt",
+    "slug": "charcoal-heritage-plaid-relaxed-shirt",
+    "category": "Checks Shirt",
+    "category_slug": "checks-shirt",
+    "size_type": "top",
+    "description": "Premium men's checks shirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "100% Combed Cotton Flannel & Twill",
+    "care": "Machine wash cold with like colours, warm iron if needed, do not bleach",
+    "colour": "Charcoal",
+    "price": 749,
+    "mrp": 1059,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.59 AM (1).jpeg",
+    "local_path": "client/public/Products Image/Checks Shirt/WhatsApp Image 2026-10-18 at 10.15.59 AM (1).jpeg",
+    "storage_path": "products/checks-shirt/charcoal-heritage-plaid-relaxed-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve charcoal checks cotton button-down shirt",
+    "is_featured": true,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Charcoal",
+        "sku": "MXF-CHK-027-CHA-S",
+        "stock": 17,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Charcoal",
+        "sku": "MXF-CHK-027-CHA-M",
+        "stock": 25,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Charcoal",
+        "sku": "MXF-CHK-027-CHA-L",
+        "stock": 22,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Charcoal",
+        "sku": "MXF-CHK-027-CHA-XL",
+        "stock": 25,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Charcoal",
+        "sku": "MXF-CHK-027-CHA-XXL",
+        "stock": 11,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 28,
+    "name": "Charcoal Oxford Box Check Shirt",
+    "slug": "charcoal-oxford-box-check-shirt",
+    "category": "Checks Shirt",
+    "category_slug": "checks-shirt",
+    "size_type": "top",
+    "description": "Premium men's checks shirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "100% Combed Cotton Flannel & Twill",
+    "care": "Machine wash cold with like colours, warm iron if needed, do not bleach",
+    "colour": "Charcoal",
+    "price": 749,
+    "mrp": 1039,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.59 AM (2).jpeg",
+    "local_path": "client/public/Products Image/Checks Shirt/WhatsApp Image 2026-10-18 at 10.15.59 AM (2).jpeg",
+    "storage_path": "products/checks-shirt/charcoal-oxford-box-check-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve charcoal checks cotton button-down shirt",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Charcoal",
+        "sku": "MXF-CHK-028-CHA-S",
+        "stock": 5,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Charcoal",
+        "sku": "MXF-CHK-028-CHA-M",
+        "stock": 17,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Charcoal",
+        "sku": "MXF-CHK-028-CHA-L",
+        "stock": 1,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Charcoal",
+        "sku": "MXF-CHK-028-CHA-XL",
+        "stock": 28,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Charcoal",
+        "sku": "MXF-CHK-028-CHA-XXL",
+        "stock": 4,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 29,
+    "name": "Slate Blue Monochrome Grid Check Shirt",
+    "slug": "slate-blue-monochrome-grid-check-shirt",
+    "category": "Checks Shirt",
+    "category_slug": "checks-shirt",
+    "size_type": "top",
+    "description": "Premium men's checks shirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "100% Combed Cotton Flannel & Twill",
+    "care": "Machine wash cold with like colours, warm iron if needed, do not bleach",
+    "colour": "Slate Blue",
+    "price": 849,
+    "mrp": 1149,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.59 AM.jpeg",
+    "local_path": "client/public/Products Image/Checks Shirt/WhatsApp Image 2026-10-18 at 10.15.59 AM.jpeg",
+    "storage_path": "products/checks-shirt/slate-blue-monochrome-grid-check-shirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve slate blue checks cotton button-down shirt",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Slate Blue",
+        "sku": "MXF-CHK-029-SLA-S",
+        "stock": 17,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Slate Blue",
+        "sku": "MXF-CHK-029-SLA-M",
+        "stock": 1,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Slate Blue",
+        "sku": "MXF-CHK-029-SLA-L",
+        "stock": 11,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Slate Blue",
+        "sku": "MXF-CHK-029-SLA-XL",
+        "stock": 18,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Slate Blue",
+        "sku": "MXF-CHK-029-SLA-XXL",
+        "stock": 21,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 30,
+    "name": "Black Classic Kangaroo Pocket Pullover Hoodie",
+    "slug": "black-classic-kangaroo-pocket-pullover-hoodie",
+    "category": "Hoodies and Sweatshirt",
+    "category_slug": "hoodies-sweatshirt",
+    "size_type": "top",
+    "description": "Premium men's hoodies and sweatshirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "380 GSM Cotton-Fleece Blend with Brushed Backing",
+    "care": "Machine wash cold inside out, do not bleach, tumble dry gentle, reshape while damp",
+    "colour": "Black",
+    "price": 899,
+    "mrp": 1089,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.03 AM (1).jpeg",
+    "local_path": "client/public/Products Image/Hoodies and Sweatshirt/WhatsApp Image 2026-10-18 at 10.16.03 AM (1).jpeg",
+    "storage_path": "products/hoodies-sweatshirt/black-classic-kangaroo-pocket-pullover-hoodie/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve black fleece cotton pullover hoodie with front pocket",
+    "is_featured": false,
+    "is_new": true,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Black",
+        "sku": "MXF-HOD-030-BLA-S",
+        "stock": 27,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Black",
+        "sku": "MXF-HOD-030-BLA-M",
+        "stock": 18,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Black",
+        "sku": "MXF-HOD-030-BLA-L",
+        "stock": 25,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Black",
+        "sku": "MXF-HOD-030-BLA-XL",
+        "stock": 11,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Black",
+        "sku": "MXF-HOD-030-BLA-XXL",
+        "stock": 3,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 31,
+    "name": "Black Heavyweight French Terry Crew Sweatshirt",
+    "slug": "black-heavyweight-french-terry-crew-sweatshirt",
+    "category": "Hoodies and Sweatshirt",
+    "category_slug": "hoodies-sweatshirt",
+    "size_type": "top",
+    "description": "Premium men's hoodies and sweatshirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "380 GSM Cotton-Fleece Blend with Brushed Backing",
+    "care": "Machine wash cold inside out, do not bleach, tumble dry gentle, reshape while damp",
+    "colour": "Black",
+    "price": 849,
+    "mrp": 1139,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.03 AM (2).jpeg",
+    "local_path": "client/public/Products Image/Hoodies and Sweatshirt/WhatsApp Image 2026-10-18 at 10.16.03 AM (2).jpeg",
+    "storage_path": "products/hoodies-sweatshirt/black-heavyweight-french-terry-crew-sweatshirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve black fleece cotton pullover hoodie with front pocket",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Black",
+        "sku": "MXF-HOD-031-BLA-S",
+        "stock": 1,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Black",
+        "sku": "MXF-HOD-031-BLA-M",
+        "stock": 26,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Black",
+        "sku": "MXF-HOD-031-BLA-L",
+        "stock": 15,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Black",
+        "sku": "MXF-HOD-031-BLA-XL",
+        "stock": 1,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Black",
+        "sku": "MXF-HOD-031-BLA-XXL",
+        "stock": 20,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 32,
+    "name": "Brown Oversized Drop-Shoulder Fleece Hoodie",
+    "slug": "brown-oversized-drop-shoulder-fleece-hoodie",
+    "category": "Hoodies and Sweatshirt",
+    "category_slug": "hoodies-sweatshirt",
+    "size_type": "top",
+    "description": "Premium men's hoodies and sweatshirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "380 GSM Cotton-Fleece Blend with Brushed Backing",
+    "care": "Machine wash cold inside out, do not bleach, tumble dry gentle, reshape while damp",
+    "colour": "Brown",
+    "price": 649,
+    "mrp": 919,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.04 AM (1).jpeg",
+    "local_path": "client/public/Products Image/Hoodies and Sweatshirt/WhatsApp Image 2026-10-18 at 10.16.04 AM (1).jpeg",
+    "storage_path": "products/hoodies-sweatshirt/brown-oversized-drop-shoulder-fleece-hoodie/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve brown fleece cotton pullover hoodie with front pocket",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Brown",
+        "sku": "MXF-HOD-032-BRO-S",
+        "stock": 26,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Brown",
+        "sku": "MXF-HOD-032-BRO-M",
+        "stock": 26,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Brown",
+        "sku": "MXF-HOD-032-BRO-L",
+        "stock": 23,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Brown",
+        "sku": "MXF-HOD-032-BRO-XL",
+        "stock": 13,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Brown",
+        "sku": "MXF-HOD-032-BRO-XXL",
+        "stock": 11,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 33,
+    "name": "Black Minimalist Ribbed Hem Sweatshirt",
+    "slug": "black-minimalist-ribbed-hem-sweatshirt",
+    "category": "Hoodies and Sweatshirt",
+    "category_slug": "hoodies-sweatshirt",
+    "size_type": "top",
+    "description": "Premium men's hoodies and sweatshirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "380 GSM Cotton-Fleece Blend with Brushed Backing",
+    "care": "Machine wash cold inside out, do not bleach, tumble dry gentle, reshape while damp",
+    "colour": "Black",
+    "price": 949,
+    "mrp": 1359,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.04 AM (2).jpeg",
+    "local_path": "client/public/Products Image/Hoodies and Sweatshirt/WhatsApp Image 2026-10-18 at 10.16.04 AM (2).jpeg",
+    "storage_path": "products/hoodies-sweatshirt/black-minimalist-ribbed-hem-sweatshirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve black fleece cotton pullover hoodie with front pocket",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Black",
+        "sku": "MXF-HOD-033-BLA-S",
+        "stock": 16,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Black",
+        "sku": "MXF-HOD-033-BLA-M",
+        "stock": 4,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Black",
+        "sku": "MXF-HOD-033-BLA-L",
+        "stock": 1,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Black",
+        "sku": "MXF-HOD-033-BLA-XL",
+        "stock": 16,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Black",
+        "sku": "MXF-HOD-033-BLA-XXL",
+        "stock": 0,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 34,
+    "name": "Rust Double-Lined Hooded Streetwear Pullover",
+    "slug": "rust-double-lined-hooded-streetwear-pullover",
+    "category": "Hoodies and Sweatshirt",
+    "category_slug": "hoodies-sweatshirt",
+    "size_type": "top",
+    "description": "Premium men's hoodies and sweatshirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "380 GSM Cotton-Fleece Blend with Brushed Backing",
+    "care": "Machine wash cold inside out, do not bleach, tumble dry gentle, reshape while damp",
+    "colour": "Rust",
+    "price": 949,
+    "mrp": 1319,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.04 AM.jpeg",
+    "local_path": "client/public/Products Image/Hoodies and Sweatshirt/WhatsApp Image 2026-10-18 at 10.16.04 AM.jpeg",
+    "storage_path": "products/hoodies-sweatshirt/rust-double-lined-hooded-streetwear-pullover/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve rust fleece cotton pullover hoodie with front pocket",
+    "is_featured": true,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Rust",
+        "sku": "MXF-HOD-034-RUS-S",
+        "stock": 9,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Rust",
+        "sku": "MXF-HOD-034-RUS-M",
+        "stock": 23,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Rust",
+        "sku": "MXF-HOD-034-RUS-L",
+        "stock": 4,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Rust",
+        "sku": "MXF-HOD-034-RUS-XL",
+        "stock": 1,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Rust",
+        "sku": "MXF-HOD-034-RUS-XXL",
+        "stock": 0,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 35,
+    "name": "Rust Athletic Relaxed Fleece Crewneck",
+    "slug": "rust-athletic-relaxed-fleece-crewneck",
+    "category": "Hoodies and Sweatshirt",
+    "category_slug": "hoodies-sweatshirt",
+    "size_type": "top",
+    "description": "Premium men's hoodies and sweatshirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "380 GSM Cotton-Fleece Blend with Brushed Backing",
+    "care": "Machine wash cold inside out, do not bleach, tumble dry gentle, reshape while damp",
+    "colour": "Rust",
+    "price": 899,
+    "mrp": 1299,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.05 AM (1).jpeg",
+    "local_path": "client/public/Products Image/Hoodies and Sweatshirt/WhatsApp Image 2026-10-18 at 10.16.05 AM (1).jpeg",
+    "storage_path": "products/hoodies-sweatshirt/rust-athletic-relaxed-fleece-crewneck/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve rust fleece cotton pullover hoodie with front pocket",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Rust",
+        "sku": "MXF-HOD-035-RUS-S",
+        "stock": 30,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Rust",
+        "sku": "MXF-HOD-035-RUS-M",
+        "stock": 12,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Rust",
+        "sku": "MXF-HOD-035-RUS-L",
+        "stock": 18,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Rust",
+        "sku": "MXF-HOD-035-RUS-XL",
+        "stock": 12,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Rust",
+        "sku": "MXF-HOD-035-RUS-XXL",
+        "stock": 22,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 36,
+    "name": "Grey Garment-Dyed Brushed Cotton Hoodie",
+    "slug": "grey-garment-dyed-brushed-cotton-hoodie",
+    "category": "Hoodies and Sweatshirt",
+    "category_slug": "hoodies-sweatshirt",
+    "size_type": "top",
+    "description": "Premium men's hoodies and sweatshirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "380 GSM Cotton-Fleece Blend with Brushed Backing",
+    "care": "Machine wash cold inside out, do not bleach, tumble dry gentle, reshape while damp",
+    "colour": "Grey",
+    "price": 599,
+    "mrp": 779,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.05 AM (2).jpeg",
+    "local_path": "client/public/Products Image/Hoodies and Sweatshirt/WhatsApp Image 2026-10-18 at 10.16.05 AM (2).jpeg",
+    "storage_path": "products/hoodies-sweatshirt/grey-garment-dyed-brushed-cotton-hoodie/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve grey fleece cotton pullover hoodie with front pocket",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Grey",
+        "sku": "MXF-HOD-036-GRE-S",
+        "stock": 21,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Grey",
+        "sku": "MXF-HOD-036-GRE-M",
+        "stock": 13,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Grey",
+        "sku": "MXF-HOD-036-GRE-L",
+        "stock": 11,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Grey",
+        "sku": "MXF-HOD-036-GRE-XL",
+        "stock": 29,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Grey",
+        "sku": "MXF-HOD-036-GRE-XXL",
+        "stock": 10,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 37,
+    "name": "Beige Urban Thermal Layered Sweatshirt",
+    "slug": "beige-urban-thermal-layered-sweatshirt",
+    "category": "Hoodies and Sweatshirt",
+    "category_slug": "hoodies-sweatshirt",
+    "size_type": "top",
+    "description": "Premium men's hoodies and sweatshirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "380 GSM Cotton-Fleece Blend with Brushed Backing",
+    "care": "Machine wash cold inside out, do not bleach, tumble dry gentle, reshape while damp",
+    "colour": "Beige",
+    "price": 949,
+    "mrp": 1259,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.05 AM.jpeg",
+    "local_path": "client/public/Products Image/Hoodies and Sweatshirt/WhatsApp Image 2026-10-18 at 10.16.05 AM.jpeg",
+    "storage_path": "products/hoodies-sweatshirt/beige-urban-thermal-layered-sweatshirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve beige fleece cotton pullover hoodie with front pocket",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Beige",
+        "sku": "MXF-HOD-037-BEI-S",
+        "stock": 25,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Beige",
+        "sku": "MXF-HOD-037-BEI-M",
+        "stock": 8,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Beige",
+        "sku": "MXF-HOD-037-BEI-L",
+        "stock": 16,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Beige",
+        "sku": "MXF-HOD-037-BEI-XL",
+        "stock": 23,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Beige",
+        "sku": "MXF-HOD-037-BEI-XXL",
+        "stock": 24,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 38,
+    "name": "Purple Thermal-Knit Heavy Pullover Hoodie",
+    "slug": "purple-thermal-knit-heavy-pullover-hoodie",
+    "category": "Hoodies and Sweatshirt",
+    "category_slug": "hoodies-sweatshirt",
+    "size_type": "top",
+    "description": "Premium men's hoodies and sweatshirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "380 GSM Cotton-Fleece Blend with Brushed Backing",
+    "care": "Machine wash cold inside out, do not bleach, tumble dry gentle, reshape while damp",
+    "colour": "Purple",
+    "price": 999,
+    "mrp": 1319,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.06 AM (1).jpeg",
+    "local_path": "client/public/Products Image/Hoodies and Sweatshirt/WhatsApp Image 2026-10-18 at 10.16.06 AM (1).jpeg",
+    "storage_path": "products/hoodies-sweatshirt/purple-thermal-knit-heavy-pullover-hoodie/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve purple fleece cotton pullover hoodie with front pocket",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Purple",
+        "sku": "MXF-HOD-038-PUR-S",
+        "stock": 12,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Purple",
+        "sku": "MXF-HOD-038-PUR-M",
+        "stock": 15,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Purple",
+        "sku": "MXF-HOD-038-PUR-L",
+        "stock": 10,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Purple",
+        "sku": "MXF-HOD-038-PUR-XL",
+        "stock": 21,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Purple",
+        "sku": "MXF-HOD-038-PUR-XXL",
+        "stock": 13,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 39,
+    "name": "Blue Cozy Brushed Core Crew Sweatshirt",
+    "slug": "blue-cozy-brushed-core-crew-sweatshirt",
+    "category": "Hoodies and Sweatshirt",
+    "category_slug": "hoodies-sweatshirt",
+    "size_type": "top",
+    "description": "Premium men's hoodies and sweatshirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "380 GSM Cotton-Fleece Blend with Brushed Backing",
+    "care": "Machine wash cold inside out, do not bleach, tumble dry gentle, reshape while damp",
+    "colour": "Blue",
+    "price": 649,
+    "mrp": 859,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.06 AM (2).jpeg",
+    "local_path": "client/public/Products Image/Hoodies and Sweatshirt/WhatsApp Image 2026-10-18 at 10.16.06 AM (2).jpeg",
+    "storage_path": "products/hoodies-sweatshirt/blue-cozy-brushed-core-crew-sweatshirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve blue fleece cotton pullover hoodie with front pocket",
+    "is_featured": true,
+    "is_new": true,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Blue",
+        "sku": "MXF-HOD-039-BLU-S",
+        "stock": 2,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Blue",
+        "sku": "MXF-HOD-039-BLU-M",
+        "stock": 23,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Blue",
+        "sku": "MXF-HOD-039-BLU-L",
+        "stock": 26,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Blue",
+        "sku": "MXF-HOD-039-BLU-XL",
+        "stock": 29,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Blue",
+        "sku": "MXF-HOD-039-BLU-XXL",
+        "stock": 0,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 40,
+    "name": "Black Structured Heavy Fleece Pullover",
+    "slug": "black-structured-heavy-fleece-pullover",
+    "category": "Hoodies and Sweatshirt",
+    "category_slug": "hoodies-sweatshirt",
+    "size_type": "top",
+    "description": "Premium men's hoodies and sweatshirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "380 GSM Cotton-Fleece Blend with Brushed Backing",
+    "care": "Machine wash cold inside out, do not bleach, tumble dry gentle, reshape while damp",
+    "colour": "Black",
+    "price": 999,
+    "mrp": 1259,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.06 AM (3).jpeg",
+    "local_path": "client/public/Products Image/Hoodies and Sweatshirt/WhatsApp Image 2026-10-18 at 10.16.06 AM (3).jpeg",
+    "storage_path": "products/hoodies-sweatshirt/black-structured-heavy-fleece-pullover/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve black fleece cotton pullover hoodie with front pocket",
+    "is_featured": true,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Black",
+        "sku": "MXF-HOD-040-BLA-S",
+        "stock": 2,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Black",
+        "sku": "MXF-HOD-040-BLA-M",
+        "stock": 10,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Black",
+        "sku": "MXF-HOD-040-BLA-L",
+        "stock": 16,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Black",
+        "sku": "MXF-HOD-040-BLA-XL",
+        "stock": 29,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Black",
+        "sku": "MXF-HOD-040-BLA-XXL",
+        "stock": 0,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 41,
+    "name": "Black Premium Combed Cotton Hoodie",
+    "slug": "black-premium-combed-cotton-hoodie",
+    "category": "Hoodies and Sweatshirt",
+    "category_slug": "hoodies-sweatshirt",
+    "size_type": "top",
+    "description": "Premium men's hoodies and sweatshirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "380 GSM Cotton-Fleece Blend with Brushed Backing",
+    "care": "Machine wash cold inside out, do not bleach, tumble dry gentle, reshape while damp",
+    "colour": "Black",
+    "price": 699,
+    "mrp": 959,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.06 AM.jpeg",
+    "local_path": "client/public/Products Image/Hoodies and Sweatshirt/WhatsApp Image 2026-10-18 at 10.16.06 AM.jpeg",
+    "storage_path": "products/hoodies-sweatshirt/black-premium-combed-cotton-hoodie/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve black fleece cotton pullover hoodie with front pocket",
+    "is_featured": false,
+    "is_new": true,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Black",
+        "sku": "MXF-HOD-041-BLA-S",
+        "stock": 8,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Black",
+        "sku": "MXF-HOD-041-BLA-M",
+        "stock": 10,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Black",
+        "sku": "MXF-HOD-041-BLA-L",
+        "stock": 1,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Black",
+        "sku": "MXF-HOD-041-BLA-XL",
+        "stock": 5,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Black",
+        "sku": "MXF-HOD-041-BLA-XXL",
+        "stock": 0,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 42,
+    "name": "Green Relaxed Fit Graphic Fleece Hoodie",
+    "slug": "green-relaxed-fit-graphic-fleece-hoodie",
+    "category": "Hoodies and Sweatshirt",
+    "category_slug": "hoodies-sweatshirt",
+    "size_type": "top",
+    "description": "Premium men's hoodies and sweatshirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "380 GSM Cotton-Fleece Blend with Brushed Backing",
+    "care": "Machine wash cold inside out, do not bleach, tumble dry gentle, reshape while damp",
+    "colour": "Green",
+    "price": 849,
+    "mrp": 1229,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.07 AM (1).jpeg",
+    "local_path": "client/public/Products Image/Hoodies and Sweatshirt/WhatsApp Image 2026-10-18 at 10.16.07 AM (1).jpeg",
+    "storage_path": "products/hoodies-sweatshirt/green-relaxed-fit-graphic-fleece-hoodie/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve green fleece cotton pullover hoodie with front pocket",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Green",
+        "sku": "MXF-HOD-042-GRE-S",
+        "stock": 27,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Green",
+        "sku": "MXF-HOD-042-GRE-M",
+        "stock": 3,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Green",
+        "sku": "MXF-HOD-042-GRE-L",
+        "stock": 27,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Green",
+        "sku": "MXF-HOD-042-GRE-XL",
+        "stock": 0,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Green",
+        "sku": "MXF-HOD-042-GRE-XXL",
+        "stock": 19,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 43,
+    "name": "Maroon Clean Silhouette French Terry Sweatshirt",
+    "slug": "maroon-clean-silhouette-french-terry-sweatshirt",
+    "category": "Hoodies and Sweatshirt",
+    "category_slug": "hoodies-sweatshirt",
+    "size_type": "top",
+    "description": "Premium men's hoodies and sweatshirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "380 GSM Cotton-Fleece Blend with Brushed Backing",
+    "care": "Machine wash cold inside out, do not bleach, tumble dry gentle, reshape while damp",
+    "colour": "Maroon",
+    "price": 599,
+    "mrp": 869,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.07 AM (2).jpeg",
+    "local_path": "client/public/Products Image/Hoodies and Sweatshirt/WhatsApp Image 2026-10-18 at 10.16.07 AM (2).jpeg",
+    "storage_path": "products/hoodies-sweatshirt/maroon-clean-silhouette-french-terry-sweatshirt/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve maroon fleece cotton pullover hoodie with front pocket",
+    "is_featured": true,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Maroon",
+        "sku": "MXF-HOD-043-MAR-S",
+        "stock": 21,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Maroon",
+        "sku": "MXF-HOD-043-MAR-M",
+        "stock": 5,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Maroon",
+        "sku": "MXF-HOD-043-MAR-L",
+        "stock": 14,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Maroon",
+        "sku": "MXF-HOD-043-MAR-XL",
+        "stock": 3,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Maroon",
+        "sku": "MXF-HOD-043-MAR-XXL",
+        "stock": 11,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 44,
+    "name": "Black Vintage Wash Heavyweight Hoodie",
+    "slug": "black-vintage-wash-heavyweight-hoodie",
+    "category": "Hoodies and Sweatshirt",
+    "category_slug": "hoodies-sweatshirt",
+    "size_type": "top",
+    "description": "Premium men's hoodies and sweatshirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "380 GSM Cotton-Fleece Blend with Brushed Backing",
+    "care": "Machine wash cold inside out, do not bleach, tumble dry gentle, reshape while damp",
+    "colour": "Black",
+    "price": 599,
+    "mrp": 749,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.07 AM.jpeg",
+    "local_path": "client/public/Products Image/Hoodies and Sweatshirt/WhatsApp Image 2026-10-18 at 10.16.07 AM.jpeg",
+    "storage_path": "products/hoodies-sweatshirt/black-vintage-wash-heavyweight-hoodie/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve black fleece cotton pullover hoodie with front pocket",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Black",
+        "sku": "MXF-HOD-044-BLA-S",
+        "stock": 20,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Black",
+        "sku": "MXF-HOD-044-BLA-M",
+        "stock": 30,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Black",
+        "sku": "MXF-HOD-044-BLA-L",
+        "stock": 12,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Black",
+        "sku": "MXF-HOD-044-BLA-XL",
+        "stock": 5,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Black",
+        "sku": "MXF-HOD-044-BLA-XXL",
+        "stock": 8,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 45,
+    "name": "Blue Type III Trucker Canvas Jacket",
+    "slug": "blue-type-iii-trucker-canvas-jacket",
+    "category": "Men's Jacket",
+    "category_slug": "mens-jacket",
+    "size_type": "top",
+    "description": "Premium men's men's jacket tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Heavy Cotton Canvas & Denim with Poly-Taffeta Lining",
+    "care": "Dry clean recommended, or hand wash cold, do not tumble dry",
+    "colour": "Blue",
+    "price": 1149,
+    "mrp": 1589,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.55 AM (1).jpeg",
+    "local_path": "client/public/Products Image/Men's Jacket/WhatsApp Image 2026-10-18 at 10.15.55 AM (1).jpeg",
+    "storage_path": "products/mens-jacket/blue-type-iii-trucker-canvas-jacket/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve blue zip front utility canvas jacket",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Blue",
+        "sku": "MXF-JKT-045-BLU-S",
+        "stock": 23,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Blue",
+        "sku": "MXF-JKT-045-BLU-M",
+        "stock": 1,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Blue",
+        "sku": "MXF-JKT-045-BLU-L",
+        "stock": 12,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Blue",
+        "sku": "MXF-JKT-045-BLU-XL",
+        "stock": 14,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Blue",
+        "sku": "MXF-JKT-045-BLU-XXL",
+        "stock": 0,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 46,
+    "name": "Navy Vintage Washed Denim Rider Jacket",
+    "slug": "navy-vintage-washed-denim-rider-jacket",
+    "category": "Men's Jacket",
+    "category_slug": "mens-jacket",
+    "size_type": "top",
+    "description": "Premium men's men's jacket tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Heavy Cotton Canvas & Denim with Poly-Taffeta Lining",
+    "care": "Dry clean recommended, or hand wash cold, do not tumble dry",
+    "colour": "Navy",
+    "price": 1299,
+    "mrp": 1689,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.55 AM (2).jpeg",
+    "local_path": "client/public/Products Image/Men's Jacket/WhatsApp Image 2026-10-18 at 10.15.55 AM (2).jpeg",
+    "storage_path": "products/mens-jacket/navy-vintage-washed-denim-rider-jacket/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve navy zip front utility canvas jacket",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Navy",
+        "sku": "MXF-JKT-046-NAV-S",
+        "stock": 29,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Navy",
+        "sku": "MXF-JKT-046-NAV-M",
+        "stock": 24,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Navy",
+        "sku": "MXF-JKT-046-NAV-L",
+        "stock": 22,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Navy",
+        "sku": "MXF-JKT-046-NAV-XL",
+        "stock": 10,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Navy",
+        "sku": "MXF-JKT-046-NAV-XXL",
+        "stock": 4,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 47,
+    "name": "Olive Urban Minimalist Zip-Up Bomber Jacket",
+    "slug": "olive-urban-minimalist-zip-up-bomber-jacket",
+    "category": "Men's Jacket",
+    "category_slug": "mens-jacket",
+    "size_type": "top",
+    "description": "Premium men's men's jacket tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Heavy Cotton Canvas & Denim with Poly-Taffeta Lining",
+    "care": "Dry clean recommended, or hand wash cold, do not tumble dry",
+    "colour": "Olive",
+    "price": 1049,
+    "mrp": 1309,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.55 AM.jpeg",
+    "local_path": "client/public/Products Image/Men's Jacket/WhatsApp Image 2026-10-18 at 10.15.55 AM.jpeg",
+    "storage_path": "products/mens-jacket/olive-urban-minimalist-zip-up-bomber-jacket/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve olive zip front utility canvas jacket",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Olive",
+        "sku": "MXF-JKT-047-OLI-S",
+        "stock": 9,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Olive",
+        "sku": "MXF-JKT-047-OLI-M",
+        "stock": 3,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Olive",
+        "sku": "MXF-JKT-047-OLI-L",
+        "stock": 24,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Olive",
+        "sku": "MXF-JKT-047-OLI-XL",
+        "stock": 23,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Olive",
+        "sku": "MXF-JKT-047-OLI-XXL",
+        "stock": 23,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 48,
+    "name": "Black Rugged Multi-Pocket Field Utility Jacket",
+    "slug": "black-rugged-multi-pocket-field-utility-jacket",
+    "category": "Men's Jacket",
+    "category_slug": "mens-jacket",
+    "size_type": "top",
+    "description": "Premium men's men's jacket tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Heavy Cotton Canvas & Denim with Poly-Taffeta Lining",
+    "care": "Dry clean recommended, or hand wash cold, do not tumble dry",
+    "colour": "Black",
+    "price": 1099,
+    "mrp": 1359,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.56 AM (1).jpeg",
+    "local_path": "client/public/Products Image/Men's Jacket/WhatsApp Image 2026-10-18 at 10.15.56 AM (1).jpeg",
+    "storage_path": "products/mens-jacket/black-rugged-multi-pocket-field-utility-jacket/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve black zip front utility canvas jacket",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Black",
+        "sku": "MXF-JKT-048-BLA-S",
+        "stock": 4,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Black",
+        "sku": "MXF-JKT-048-BLA-M",
+        "stock": 1,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Black",
+        "sku": "MXF-JKT-048-BLA-L",
+        "stock": 10,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Black",
+        "sku": "MXF-JKT-048-BLA-XL",
+        "stock": 28,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Black",
+        "sku": "MXF-JKT-048-BLA-XXL",
+        "stock": 24,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 49,
+    "name": "Navy Heavyweight Worker Canvas Overshirt Jacket",
+    "slug": "navy-heavyweight-worker-canvas-overshirt-jacket",
+    "category": "Men's Jacket",
+    "category_slug": "mens-jacket",
+    "size_type": "top",
+    "description": "Premium men's men's jacket tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "Heavy Cotton Canvas & Denim with Poly-Taffeta Lining",
+    "care": "Dry clean recommended, or hand wash cold, do not tumble dry",
+    "colour": "Navy",
+    "price": 1299,
+    "mrp": 1689,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.56 AM.jpeg",
+    "local_path": "client/public/Products Image/Men's Jacket/WhatsApp Image 2026-10-18 at 10.15.56 AM.jpeg",
+    "storage_path": "products/mens-jacket/navy-heavyweight-worker-canvas-overshirt-jacket/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "long sleeve navy zip front utility canvas jacket",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Navy",
+        "sku": "MXF-JKT-049-NAV-S",
+        "stock": 10,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Navy",
+        "sku": "MXF-JKT-049-NAV-M",
+        "stock": 11,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Navy",
+        "sku": "MXF-JKT-049-NAV-L",
+        "stock": 15,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Navy",
+        "sku": "MXF-JKT-049-NAV-XL",
+        "stock": 23,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Navy",
+        "sku": "MXF-JKT-049-NAV-XXL",
+        "stock": 21,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 50,
+    "name": "Slate Blue Classic Slim-Fit Stretch Denim Jeans",
+    "slug": "slate-blue-classic-slim-fit-stretch-denim-jeans",
+    "category": "Pants Jeans",
+    "category_slug": "pants-jeans",
+    "size_type": "bottom",
+    "description": "Premium men's pants jeans tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "13.5 Oz Comfort-Stretch Cotton Denim (98% Cotton, 2% Elastane)",
+    "care": "Machine wash cold inside out, wash dark colours separately, line dry in shade",
+    "colour": "Slate Blue",
+    "price": 849,
+    "mrp": 1089,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.48 AM (2).jpeg",
+    "local_path": "client/public/Products Image/Pants Jeans/WhatsApp Image 2026-10-18 at 10.15.48 AM (2).jpeg",
+    "storage_path": "products/pants-jeans/slate-blue-classic-slim-fit-stretch-denim-jeans/1.jpeg",
+    "tryon_enabled": false,
+    "garment_des": "men's slate blue comfort stretch denim pants",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "28",
+        "color": "Slate Blue",
+        "sku": "MXF-JNS-050-SLA-28",
+        "stock": 4,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "30",
+        "color": "Slate Blue",
+        "sku": "MXF-JNS-050-SLA-30",
+        "stock": 30,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "32",
+        "color": "Slate Blue",
+        "sku": "MXF-JNS-050-SLA-32",
+        "stock": 1,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "34",
+        "color": "Slate Blue",
+        "sku": "MXF-JNS-050-SLA-34",
+        "stock": 28,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "36",
+        "color": "Slate Blue",
+        "sku": "MXF-JNS-050-SLA-36",
+        "stock": 0,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "38",
+        "color": "Slate Blue",
+        "sku": "MXF-JNS-050-SLA-38",
+        "stock": 12,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 51,
+    "name": "Charcoal Relaxed Tapered Fit Selvedge Jeans",
+    "slug": "charcoal-relaxed-tapered-fit-selvedge-jeans",
+    "category": "Pants Jeans",
+    "category_slug": "pants-jeans",
+    "size_type": "bottom",
+    "description": "Premium men's pants jeans tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "13.5 Oz Comfort-Stretch Cotton Denim (98% Cotton, 2% Elastane)",
+    "care": "Machine wash cold inside out, wash dark colours separately, line dry in shade",
+    "colour": "Charcoal",
+    "price": 999,
+    "mrp": 1349,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.49 AM (1).jpeg",
+    "local_path": "client/public/Products Image/Pants Jeans/WhatsApp Image 2026-10-18 at 10.15.49 AM (1).jpeg",
+    "storage_path": "products/pants-jeans/charcoal-relaxed-tapered-fit-selvedge-jeans/1.jpeg",
+    "tryon_enabled": false,
+    "garment_des": "men's charcoal comfort stretch denim pants",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "28",
+        "color": "Charcoal",
+        "sku": "MXF-JNS-051-CHA-28",
+        "stock": 2,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "30",
+        "color": "Charcoal",
+        "sku": "MXF-JNS-051-CHA-30",
+        "stock": 25,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "32",
+        "color": "Charcoal",
+        "sku": "MXF-JNS-051-CHA-32",
+        "stock": 28,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "34",
+        "color": "Charcoal",
+        "sku": "MXF-JNS-051-CHA-34",
+        "stock": 0,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "36",
+        "color": "Charcoal",
+        "sku": "MXF-JNS-051-CHA-36",
+        "stock": 27,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "38",
+        "color": "Charcoal",
+        "sku": "MXF-JNS-051-CHA-38",
+        "stock": 13,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 52,
+    "name": "Charcoal Straight Leg Vintage Wash Denim Jeans",
+    "slug": "charcoal-straight-leg-vintage-wash-denim-jeans",
+    "category": "Pants Jeans",
+    "category_slug": "pants-jeans",
+    "size_type": "bottom",
+    "description": "Premium men's pants jeans tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "13.5 Oz Comfort-Stretch Cotton Denim (98% Cotton, 2% Elastane)",
+    "care": "Machine wash cold inside out, wash dark colours separately, line dry in shade",
+    "colour": "Charcoal",
+    "price": 999,
+    "mrp": 1359,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.49 AM.jpeg",
+    "local_path": "client/public/Products Image/Pants Jeans/WhatsApp Image 2026-10-18 at 10.15.49 AM.jpeg",
+    "storage_path": "products/pants-jeans/charcoal-straight-leg-vintage-wash-denim-jeans/1.jpeg",
+    "tryon_enabled": false,
+    "garment_des": "men's charcoal comfort stretch denim pants",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "28",
+        "color": "Charcoal",
+        "sku": "MXF-JNS-052-CHA-28",
+        "stock": 29,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "30",
+        "color": "Charcoal",
+        "sku": "MXF-JNS-052-CHA-30",
+        "stock": 12,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "32",
+        "color": "Charcoal",
+        "sku": "MXF-JNS-052-CHA-32",
+        "stock": 12,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "34",
+        "color": "Charcoal",
+        "sku": "MXF-JNS-052-CHA-34",
+        "stock": 24,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "36",
+        "color": "Charcoal",
+        "sku": "MXF-JNS-052-CHA-36",
+        "stock": 21,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "38",
+        "color": "Charcoal",
+        "sku": "MXF-JNS-052-CHA-38",
+        "stock": 24,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 53,
+    "name": "Slate Blue Clean Dark Indigo Regular Fit Jeans",
+    "slug": "slate-blue-clean-dark-indigo-regular-fit-jeans",
+    "category": "Pants Jeans",
+    "category_slug": "pants-jeans",
+    "size_type": "bottom",
+    "description": "Premium men's pants jeans tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "13.5 Oz Comfort-Stretch Cotton Denim (98% Cotton, 2% Elastane)",
+    "care": "Machine wash cold inside out, wash dark colours separately, line dry in shade",
+    "colour": "Slate Blue",
+    "price": 949,
+    "mrp": 1349,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.50 AM (1).jpeg",
+    "local_path": "client/public/Products Image/Pants Jeans/WhatsApp Image 2026-10-18 at 10.15.50 AM (1).jpeg",
+    "storage_path": "products/pants-jeans/slate-blue-clean-dark-indigo-regular-fit-jeans/1.jpeg",
+    "tryon_enabled": false,
+    "garment_des": "men's slate blue comfort stretch denim pants",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "28",
+        "color": "Slate Blue",
+        "sku": "MXF-JNS-053-SLA-28",
+        "stock": 18,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "30",
+        "color": "Slate Blue",
+        "sku": "MXF-JNS-053-SLA-30",
+        "stock": 5,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "32",
+        "color": "Slate Blue",
+        "sku": "MXF-JNS-053-SLA-32",
+        "stock": 30,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "34",
+        "color": "Slate Blue",
+        "sku": "MXF-JNS-053-SLA-34",
+        "stock": 3,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "36",
+        "color": "Slate Blue",
+        "sku": "MXF-JNS-053-SLA-36",
+        "stock": 20,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "38",
+        "color": "Slate Blue",
+        "sku": "MXF-JNS-053-SLA-38",
+        "stock": 30,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 54,
+    "name": "Charcoal Distressed Stonewash Comfort Jeans",
+    "slug": "charcoal-distressed-stonewash-comfort-jeans",
+    "category": "Pants Jeans",
+    "category_slug": "pants-jeans",
+    "size_type": "bottom",
+    "description": "Premium men's pants jeans tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "13.5 Oz Comfort-Stretch Cotton Denim (98% Cotton, 2% Elastane)",
+    "care": "Machine wash cold inside out, wash dark colours separately, line dry in shade",
+    "colour": "Charcoal",
+    "price": 799,
+    "mrp": 1069,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.50 AM (2).jpeg",
+    "local_path": "client/public/Products Image/Pants Jeans/WhatsApp Image 2026-10-18 at 10.15.50 AM (2).jpeg",
+    "storage_path": "products/pants-jeans/charcoal-distressed-stonewash-comfort-jeans/1.jpeg",
+    "tryon_enabled": false,
+    "garment_des": "men's charcoal comfort stretch denim pants",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "28",
+        "color": "Charcoal",
+        "sku": "MXF-JNS-054-CHA-28",
+        "stock": 30,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "30",
+        "color": "Charcoal",
+        "sku": "MXF-JNS-054-CHA-30",
+        "stock": 15,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "32",
+        "color": "Charcoal",
+        "sku": "MXF-JNS-054-CHA-32",
+        "stock": 30,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "34",
+        "color": "Charcoal",
+        "sku": "MXF-JNS-054-CHA-34",
+        "stock": 18,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "36",
+        "color": "Charcoal",
+        "sku": "MXF-JNS-054-CHA-36",
+        "stock": 30,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "38",
+        "color": "Charcoal",
+        "sku": "MXF-JNS-054-CHA-38",
+        "stock": 22,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 55,
+    "name": "Slate Blue Modern Athletic Taper Denim Jeans",
+    "slug": "slate-blue-modern-athletic-taper-denim-jeans",
+    "category": "Pants Jeans",
+    "category_slug": "pants-jeans",
+    "size_type": "bottom",
+    "description": "Premium men's pants jeans tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "13.5 Oz Comfort-Stretch Cotton Denim (98% Cotton, 2% Elastane)",
+    "care": "Machine wash cold inside out, wash dark colours separately, line dry in shade",
+    "colour": "Slate Blue",
+    "price": 999,
+    "mrp": 1229,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.50 AM.jpeg",
+    "local_path": "client/public/Products Image/Pants Jeans/WhatsApp Image 2026-10-18 at 10.15.50 AM.jpeg",
+    "storage_path": "products/pants-jeans/slate-blue-modern-athletic-taper-denim-jeans/1.jpeg",
+    "tryon_enabled": false,
+    "garment_des": "men's slate blue comfort stretch denim pants",
+    "is_featured": true,
+    "is_new": true,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "28",
+        "color": "Slate Blue",
+        "sku": "MXF-JNS-055-SLA-28",
+        "stock": 28,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "30",
+        "color": "Slate Blue",
+        "sku": "MXF-JNS-055-SLA-30",
+        "stock": 19,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "32",
+        "color": "Slate Blue",
+        "sku": "MXF-JNS-055-SLA-32",
+        "stock": 25,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "34",
+        "color": "Slate Blue",
+        "sku": "MXF-JNS-055-SLA-34",
+        "stock": 20,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "36",
+        "color": "Slate Blue",
+        "sku": "MXF-JNS-055-SLA-36",
+        "stock": 13,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "38",
+        "color": "Slate Blue",
+        "sku": "MXF-JNS-055-SLA-38",
+        "stock": 14,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 56,
+    "name": "Grey Mid-Rise Clean Contour Jeans",
+    "slug": "grey-mid-rise-clean-contour-jeans",
+    "category": "Pants Jeans",
+    "category_slug": "pants-jeans",
+    "size_type": "bottom",
+    "description": "Premium men's pants jeans tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "13.5 Oz Comfort-Stretch Cotton Denim (98% Cotton, 2% Elastane)",
+    "care": "Machine wash cold inside out, wash dark colours separately, line dry in shade",
+    "colour": "Grey",
+    "price": 849,
+    "mrp": 1159,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.51 AM (1).jpeg",
+    "local_path": "client/public/Products Image/Pants Jeans/WhatsApp Image 2026-10-18 at 10.15.51 AM (1).jpeg",
+    "storage_path": "products/pants-jeans/grey-mid-rise-clean-contour-jeans/1.jpeg",
+    "tryon_enabled": false,
+    "garment_des": "men's grey comfort stretch denim pants",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "28",
+        "color": "Grey",
+        "sku": "MXF-JNS-056-GRE-28",
+        "stock": 5,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "30",
+        "color": "Grey",
+        "sku": "MXF-JNS-056-GRE-30",
+        "stock": 1,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "32",
+        "color": "Grey",
+        "sku": "MXF-JNS-056-GRE-32",
+        "stock": 5,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "34",
+        "color": "Grey",
+        "sku": "MXF-JNS-056-GRE-34",
+        "stock": 0,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "36",
+        "color": "Grey",
+        "sku": "MXF-JNS-056-GRE-36",
+        "stock": 18,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "38",
+        "color": "Grey",
+        "sku": "MXF-JNS-056-GRE-38",
+        "stock": 12,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 57,
+    "name": "Grey Authentic Heavyweight Denim Pants",
+    "slug": "grey-authentic-heavyweight-denim-pants",
+    "category": "Pants Jeans",
+    "category_slug": "pants-jeans",
+    "size_type": "bottom",
+    "description": "Premium men's pants jeans tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "13.5 Oz Comfort-Stretch Cotton Denim (98% Cotton, 2% Elastane)",
+    "care": "Machine wash cold inside out, wash dark colours separately, line dry in shade",
+    "colour": "Grey",
+    "price": 999,
+    "mrp": 1449,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.15.51 AM.jpeg",
+    "local_path": "client/public/Products Image/Pants Jeans/WhatsApp Image 2026-10-18 at 10.15.51 AM.jpeg",
+    "storage_path": "products/pants-jeans/grey-authentic-heavyweight-denim-pants/1.jpeg",
+    "tryon_enabled": false,
+    "garment_des": "men's grey comfort stretch denim pants",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "28",
+        "color": "Grey",
+        "sku": "MXF-JNS-057-GRE-28",
+        "stock": 3,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "30",
+        "color": "Grey",
+        "sku": "MXF-JNS-057-GRE-30",
+        "stock": 12,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "32",
+        "color": "Grey",
+        "sku": "MXF-JNS-057-GRE-32",
+        "stock": 28,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "34",
+        "color": "Grey",
+        "sku": "MXF-JNS-057-GRE-34",
+        "stock": 23,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "36",
+        "color": "Grey",
+        "sku": "MXF-JNS-057-GRE-36",
+        "stock": 2,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "38",
+        "color": "Grey",
+        "sku": "MXF-JNS-057-GRE-38",
+        "stock": 21,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 58,
+    "name": "Black Heavyweight Oversized Crew Tee",
+    "slug": "black-heavyweight-oversized-crew-tee",
+    "category": "T-shirt",
+    "category_slug": "t-shirt",
+    "size_type": "top",
+    "description": "Premium men's t-shirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "220 GSM 100% Heavyweight Bio-Washed Cotton",
+    "care": "Machine wash cold inside out, gentle cycle, do not iron on print, tumble dry low",
+    "colour": "Black",
+    "price": 499,
+    "mrp": 649,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.00 AM (1).jpeg",
+    "local_path": "client/public/Products Image/T-shirt/WhatsApp Image 2026-10-18 at 10.16.00 AM (1).jpeg",
+    "storage_path": "products/t-shirt/black-heavyweight-oversized-crew-tee/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "short sleeve black heavyweight cotton crew neck t-shirt",
+    "is_featured": true,
+    "is_new": false,
+    "is_sold_out_deliberate": true,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Black",
+        "sku": "MXF-TSH-058-BLA-S",
+        "stock": 0,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Black",
+        "sku": "MXF-TSH-058-BLA-M",
+        "stock": 0,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Black",
+        "sku": "MXF-TSH-058-BLA-L",
+        "stock": 0,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Black",
+        "sku": "MXF-TSH-058-BLA-XL",
+        "stock": 0,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Black",
+        "sku": "MXF-TSH-058-BLA-XXL",
+        "stock": 0,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 59,
+    "name": "Blue Essential Relaxed Drop-Shoulder Tee",
+    "slug": "blue-essential-relaxed-drop-shoulder-tee",
+    "category": "T-shirt",
+    "category_slug": "t-shirt",
+    "size_type": "top",
+    "description": "Premium men's t-shirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "220 GSM 100% Heavyweight Bio-Washed Cotton",
+    "care": "Machine wash cold inside out, gentle cycle, do not iron on print, tumble dry low",
+    "colour": "Blue",
+    "price": 599,
+    "mrp": 789,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.01 AM (1).jpeg",
+    "local_path": "client/public/Products Image/T-shirt/WhatsApp Image 2026-10-18 at 10.16.01 AM (1).jpeg",
+    "storage_path": "products/t-shirt/blue-essential-relaxed-drop-shoulder-tee/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "short sleeve blue heavyweight cotton crew neck t-shirt",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Blue",
+        "sku": "MXF-TSH-059-BLU-S",
+        "stock": 3,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Blue",
+        "sku": "MXF-TSH-059-BLU-M",
+        "stock": 8,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Blue",
+        "sku": "MXF-TSH-059-BLU-L",
+        "stock": 11,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Blue",
+        "sku": "MXF-TSH-059-BLU-XL",
+        "stock": 25,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Blue",
+        "sku": "MXF-TSH-059-BLU-XXL",
+        "stock": 0,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 60,
+    "name": "Maroon Vintage Pigment Dyed Tee",
+    "slug": "maroon-vintage-pigment-dyed-tee",
+    "category": "T-shirt",
+    "category_slug": "t-shirt",
+    "size_type": "top",
+    "description": "Premium men's t-shirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "220 GSM 100% Heavyweight Bio-Washed Cotton",
+    "care": "Machine wash cold inside out, gentle cycle, do not iron on print, tumble dry low",
+    "colour": "Maroon",
+    "price": 549,
+    "mrp": 679,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.01 AM (2).jpeg",
+    "local_path": "client/public/Products Image/T-shirt/WhatsApp Image 2026-10-18 at 10.16.01 AM (2).jpeg",
+    "storage_path": "products/t-shirt/maroon-vintage-pigment-dyed-tee/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "short sleeve maroon heavyweight cotton crew neck t-shirt",
+    "is_featured": false,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Maroon",
+        "sku": "MXF-TSH-060-MAR-S",
+        "stock": 11,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Maroon",
+        "sku": "MXF-TSH-060-MAR-M",
+        "stock": 20,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Maroon",
+        "sku": "MXF-TSH-060-MAR-L",
+        "stock": 27,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Maroon",
+        "sku": "MXF-TSH-060-MAR-XL",
+        "stock": 2,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Maroon",
+        "sku": "MXF-TSH-060-MAR-XXL",
+        "stock": 5,
+        "low_stock_threshold": 5
+      }
+    ]
+  },
+  {
+    "id_temp": 61,
+    "name": "Rust Signature Minimalist Boxy Tee",
+    "slug": "rust-signature-minimalist-boxy-tee",
+    "category": "T-shirt",
+    "category_slug": "t-shirt",
+    "size_type": "top",
+    "description": "Premium men's t-shirt tailored in a timeless silhouette. Designed for effortless comfort, breathable drape, and everyday endurance.",
+    "fabric": "220 GSM 100% Heavyweight Bio-Washed Cotton",
+    "care": "Machine wash cold inside out, gentle cycle, do not iron on print, tumble dry low",
+    "colour": "Rust",
+    "price": 699,
+    "mrp": 929,
+    "original_filename": "WhatsApp Image 2026-10-18 at 10.16.01 AM.jpeg",
+    "local_path": "client/public/Products Image/T-shirt/WhatsApp Image 2026-10-18 at 10.16.01 AM.jpeg",
+    "storage_path": "products/t-shirt/rust-signature-minimalist-boxy-tee/1.jpeg",
+    "tryon_enabled": true,
+    "garment_des": "short sleeve rust heavyweight cotton crew neck t-shirt",
+    "is_featured": true,
+    "is_new": false,
+    "is_sold_out_deliberate": false,
+    "is_single_unit_deliberate": false,
+    "variants": [
+      {
+        "size": "S",
+        "color": "Rust",
+        "sku": "MXF-TSH-061-RUS-S",
+        "stock": 1,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "M",
+        "color": "Rust",
+        "sku": "MXF-TSH-061-RUS-M",
+        "stock": 21,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "L",
+        "color": "Rust",
+        "sku": "MXF-TSH-061-RUS-L",
+        "stock": 23,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XL",
+        "color": "Rust",
+        "sku": "MXF-TSH-061-RUS-XL",
+        "stock": 16,
+        "low_stock_threshold": 5
+      },
+      {
+        "size": "XXL",
+        "color": "Rust",
+        "sku": "MXF-TSH-061-RUS-XXL",
+        "stock": 20,
+        "low_stock_threshold": 5
+      }
+    ]
+  }
+]

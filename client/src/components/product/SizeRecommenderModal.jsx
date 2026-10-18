@@ -216,16 +216,39 @@ export const SizeRecommenderModal = ({ isOpen, onClose, categoryId, productId, o
               <p className="text-xs text-stone-600 mt-3 px-2 leading-relaxed">
                 {recommendation.explanation}
               </p>
+
+              {!recommendation.inStock && (
+                <div className="mt-3 p-3 bg-amber-50 rounded-xl border border-amber-200 text-xs text-amber-900 flex flex-col gap-1 text-left">
+                  <span className="font-bold">Size {recommendation.recommendedSize} is currently sold out.</span>
+                  {recommendation.alternativeSize && (
+                    <span>We suggest nearest in-stock alternative: <strong>Size {recommendation.alternativeSize}</strong>.</span>
+                  )}
+                </div>
+              )}
             </div>
 
-            <div className="flex gap-2">
+            <div className="flex flex-col sm:flex-row gap-2">
               <button
                 type="button"
                 onClick={() => setRecommendation(null)}
-                className="flex-1 py-3 border border-stone-300 text-stone-700 rounded-xl text-xs font-bold hover:bg-stone-50 transition"
+                className="py-3 px-4 border border-stone-300 text-stone-700 rounded-xl text-xs font-bold hover:bg-stone-50 transition"
               >
                 Recalculate
               </button>
+
+              {recommendation.alternativeSize && !recommendation.inStock && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    if (onSelectSize) onSelectSize(recommendation.alternativeSize);
+                    onClose();
+                  }}
+                  className="flex-1 py-3 bg-amber-600 text-white rounded-xl text-xs font-bold hover:bg-amber-700 transition flex items-center justify-center gap-1 shadow-md"
+                >
+                  <span>Select Alternative Size {recommendation.alternativeSize}</span>
+                  <ChevronRight className="w-4 h-4" />
+                </button>
+              )}
 
               <button
                 type="button"
@@ -233,7 +256,11 @@ export const SizeRecommenderModal = ({ isOpen, onClose, categoryId, productId, o
                   if (onSelectSize) onSelectSize(recommendation.recommendedSize);
                   onClose();
                 }}
-                className="flex-1 py-3 bg-neutral-950 text-white rounded-xl text-xs font-bold hover:bg-neutral-800 transition flex items-center justify-center gap-1 shadow-md"
+                className={`flex-1 py-3 rounded-xl text-xs font-bold transition flex items-center justify-center gap-1 shadow-md ${
+                  recommendation.inStock
+                    ? 'bg-neutral-950 text-white hover:bg-neutral-800'
+                    : 'bg-stone-200 text-stone-600 hover:bg-stone-300'
+                }`}
               >
                 <span>Select Size {recommendation.recommendedSize}</span>
                 <ChevronRight className="w-4 h-4" />

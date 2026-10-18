@@ -109,36 +109,37 @@ export const cancelOrder = async (req, res, next) => {
       return res.status(404).json({ success: false, error: 'Order not found' });
     }
 
-    if (!['paid', 'processing'].includes(order.status)) {
+    if (!['pending', 'paid', 'processing'].includes(order.status)) {
       return res.status(400).json({
         success: false,
         error: `Order cannot be cancelled in '${order.status}' status.`
       });
     }
 
-    // Restore stock
-    for (const item of order.items) {
-      if (item.variant_id) {
-        await supabaseAdmin.rpc('restore_variant_stock', {
-          p_variant_id: item.variant_id,
-          p_qty: item.qty
-        });
+    // Only restore stock and refund if it was paid/processing
+    if (['paid', 'processing'].includes(order.status)) {
+      // Restore stock
+      for (const item of order.items) {
+        if (item.variant_id) {
+          await supabaseAdmin.rpc('restore_variant_stock', {
+            p_variant_id: item.variant_id,
+            p_qty: item.qty
+          });
+        }
       }
-    }
 
-    // Trigger Razorpay refund if payment ID exists
-    let refundInfo = null;
-    if (order.razorpay_payment_id) {
-      try {
-        refundInfo = await razorpayInstance.payments.refund(order.razorpay_payment_id, {
-          notes: {
-            reason: 'User cancelled order',
-            orderId: order.id
-          }
-        });
-        console.log(`Razorpay refund issued for order ${order.order_number}:`, refundInfo.id);
-      } catch (rzpErr) {
-        console.warn('Razorpay refund API call note:', rzpErr.message);
+      // Trigger Razorpay refund if payment ID exists
+      if (order.razorpay_payment_id) {
+        try {
+          await razorpayInstance.payments.refund(order.razorpay_payment_id, {
+            notes: {
+              reason: 'User cancelled order',
+              orderId: order.id
+            }
+          });
+        } catch (rzpErr) {
+          console.warn('Razorpay refund API call note:', rzpErr.message);
+        }
       }
     }
 
@@ -147,7 +148,7 @@ export const cancelOrder = async (req, res, next) => {
       .from('orders')
       .update({
         status: 'cancelled',
-        payment_status: 'refunded'
+        payment_status: order.payment_status === 'captured' ? 'refunded' : 'cancelled'
       })
       .eq('id', id)
       .select()
@@ -158,7 +159,9 @@ export const cancelOrder = async (req, res, next) => {
     res.json({
       success: true,
       data: updated,
-      message: 'Order cancelled successfully. Stock has been restored and refund has been initiated.'
+      message: order.status === 'pending'
+        ? 'Unpaid order cancelled successfully.'
+        : 'Order cancelled successfully. Stock has been restored and refund has been initiated.'
     });
   } catch (err) {
     next(err);

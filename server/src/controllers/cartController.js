@@ -280,3 +280,60 @@ export const applyCoupon = async (req, res, next) => {
     next(err);
   }
 };
+
+export const getBuyNowPreview = async (req, res, next) => {
+  try {
+    const { variantId, qty = 1, couponCode } = req.query;
+    if (!variantId) {
+      return res.status(400).json({ success: false, error: 'Variant ID is required' });
+    }
+
+    const { data: variant, error: varErr } = await supabaseAdmin
+      .from('product_variants')
+      .select('*, product:products(*)')
+      .eq('id', variantId)
+      .single();
+
+    if (varErr || !variant) {
+      return res.status(404).json({ success: false, error: 'Variant not found' });
+    }
+
+    let coupon = null;
+    if (couponCode) {
+      const { data: cp } = await supabaseAdmin
+        .from('coupons')
+        .select('*')
+        .eq('code', couponCode.toUpperCase())
+        .eq('is_active', true)
+        .single();
+      if (cp && (!cp.expires_at || new Date(cp.expires_at) >= new Date())) {
+        coupon = cp;
+      }
+    }
+
+    const quantity = Math.max(1, parseInt(qty, 10) || 1);
+    const item = {
+      qty: quantity,
+      variant: {
+        id: variant.id,
+        size: variant.size,
+        color: variant.color,
+        stock: variant.stock,
+        product: variant.product
+      }
+    };
+
+    const summary = computeCartSummary([item], coupon);
+
+    res.json({
+      success: true,
+      data: {
+        item,
+        summary
+      }
+    });
+  } catch (err) {
+    next(err);
+  }
+};
+

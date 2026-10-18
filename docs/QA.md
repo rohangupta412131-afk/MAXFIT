@@ -16,9 +16,8 @@ This checklist provides step-by-step verification procedures for testing MAXFIT 
 ## 2. Storefront, Catalog & Filtering
 - [ ] **Home Page**: Verify hero banner, curated category cards, AI try-on promo banner, and new arrival products render.
 - [ ] **Shop Catalog**: Go to `/shop`.
-  - Filter by category (e.g. "Hoodies & Sweatshirts").
-  - Filter by gender ("Men's" / "Women's").
-  - Filter by size (e.g. "L").
+  - Filter by category (e.g. "Hoodies and Sweatshirt", "Checks Shirt").
+  - Filter by size (tops S-XXL, bottoms 28-38) and price range.
   - Toggle "In-Stock Only".
   - Sort by Price: Low to High, High to Low, and Newest.
 - [ ] **Search**: Use Navbar search bar to search "Heavyweight". Verify URL query synchronizes and matching products appear.

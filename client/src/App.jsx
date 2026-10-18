@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import { AuthProvider } from './context/AuthContext';
 import { CartProvider } from './context/CartContext';
@@ -36,6 +36,10 @@ export default function App() {
                 {/* Storefront Routes */}
                 <Route path="/" element={<Home />} />
                 <Route path="/shop" element={<Shop />} />
+                {/* Redirects for legacy gender routes */}
+                <Route path="/women" element={<Navigate to="/shop" replace />} />
+                <Route path="/women/*" element={<Navigate to="/shop" replace />} />
+                <Route path="/men" element={<Navigate to="/shop" replace />} />
                 <Route path="/product/:slug" element={<ProductDetail />} />
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/tryon" element={<TryonStudio />} />

@@ -4,7 +4,6 @@ export const getProducts = async (req, res, next) => {
   try {
     const {
       category,
-      gender,
       size,
       color,
       min_price,
@@ -43,10 +42,6 @@ export const getProducts = async (req, res, next) => {
       }
     }
 
-    // Filter by gender
-    if (gender && ['men', 'women', 'unisex'].includes(gender)) {
-      query = query.eq('gender', gender);
-    }
 
     // Price range
     if (min_price) {
@@ -76,16 +71,28 @@ export const getProducts = async (req, res, next) => {
     const { data: products, count, error } = await query;
     if (error) throw error;
 
+    // Decorate products with stock calculations
+    const decoratedProducts = (products || []).map(p => {
+      const totalStock = (p.variants || []).reduce((sum, v) => sum + (v.stock || 0), 0);
+      return {
+        ...p,
+        total_stock: totalStock,
+        in_stock: totalStock > 0,
+        low_stock: totalStock > 0 && totalStock <= 10
+      };
+    });
+
     // Filter variants in memory if size/color/in_stock specified
-    let filteredProducts = products || [];
+    let filteredProducts = decoratedProducts;
 
     if (size || color || in_stock === 'true') {
       filteredProducts = filteredProducts.filter(p => {
+        if (in_stock === 'true' && !p.in_stock) return false;
+        if (!size && !color) return true;
         return p.variants?.some(v => {
           let match = true;
           if (size && v.size !== size) match = false;
           if (color && !v.color.toLowerCase().includes(color.toLowerCase())) match = false;
-          if (in_stock === 'true' && v.stock <= 0) match = false;
           return match;
         });
       });
@@ -114,7 +121,7 @@ export const getProductBySlug = async (req, res, next) => {
 
     const { data: product, error } = await supabaseAdmin
       .from('products')
-      .select('*, category:categories(id, name, slug), variants:product_variants(*)')
+      .select('*, category:categories(id, name, slug, size_type), variants:product_variants(*)')
       .eq('slug', slug)
       .eq('is_active', true)
       .single();
@@ -126,11 +133,22 @@ export const getProductBySlug = async (req, res, next) => {
       });
     }
 
-    // Size sorting order
-    const sizeOrder = { XS: 1, S: 2, M: 3, L: 4, XL: 5, XXL: 6 };
+    // Size sorting order (both tops and bottoms)
+    const sizeOrder = {
+      S: 1, M: 2, L: 3, XL: 4, XXL: 5,
+      '28': 10, '30': 11, '32': 12, '34': 13, '36': 14, '38': 15
+    };
     if (product.variants) {
       product.variants.sort((a, b) => (sizeOrder[a.size] || 99) - (sizeOrder[b.size] || 99));
     }
+
+    const totalStock = (product.variants || []).reduce((sum, v) => sum + (v.stock || 0), 0);
+    const enrichedProduct = {
+      ...product,
+      total_stock: totalStock,
+      in_stock: totalStock > 0,
+      low_stock: totalStock > 0 && totalStock <= 10
+    };
 
     // Fetch related products
     const { data: related } = await supabaseAdmin
@@ -144,7 +162,7 @@ export const getProductBySlug = async (req, res, next) => {
     res.json({
       success: true,
       data: {
-        ...product,
+        ...enrichedProduct,
         related: related || []
       }
     });

@@ -17,11 +17,11 @@ class InvoiceService {
           .fillColor('#111827')
           .fontSize(24)
           .font('Helvetica-Bold')
-          .text('MAXFIT', 50, 45)
+          .text('MAX-FIT', 50, 45)
           .fontSize(9)
           .font('Helvetica')
           .fillColor('#6B7280')
-          .text('PREMIUM D2C APPAREL & VIRTUAL TRY-ON', 50, 72)
+          .text("MAX-FIT, MEN'S CLOTHING", 50, 72)
           .text('GSTIN: 29AABCM1234F1Z8 | info@maxfit.studio', 50, 84);
 
         doc

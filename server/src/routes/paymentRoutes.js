@@ -6,7 +6,8 @@ import { paymentLimiter } from '../middlewares/rateLimiter.js';
 import {
   createPaymentOrder,
   verifyPayment,
-  handleRazorpayWebhook
+  handleRazorpayWebhook,
+  retryPayment
 } from '../controllers/paymentController.js';
 
 const router = Router();
@@ -34,6 +35,7 @@ router.post('/webhook', handleRazorpayWebhook);
 
 // Protected payment endpoints
 router.post('/create-order', requireAuth, paymentLimiter, validate(createOrderSchema), createPaymentOrder);
+router.post('/retry/:orderId', requireAuth, paymentLimiter, retryPayment);
 router.post('/verify', requireAuth, paymentLimiter, validate(verifySchema), verifyPayment);
 
 export default router;

@@ -372,3 +372,90 @@ export const handleRazorpayWebhook = async (req, res, next) => {
     res.status(500).send('Webhook handler error');
   }
 };
+
+export const retryPayment = async (req, res, next) => {
+  try {
+    const { orderId } = req.params;
+
+    const { data: order, error } = await supabaseAdmin
+      .from('orders')
+      .select('*, items:order_items(*)')
+      .eq('id', orderId)
+      .eq('user_id', req.user.id)
+      .single();
+
+    if (error || !order) {
+      return res.status(404).json({ success: false, error: 'Order not found' });
+    }
+
+    if (order.status !== 'pending') {
+      return res.status(400).json({ success: false, error: `Order is already in '${order.status}' status.` });
+    }
+
+    // Verify stock is still available for all items
+    for (const item of order.items) {
+      if (item.variant_id) {
+        const { data: variant } = await supabaseAdmin
+          .from('product_variants')
+          .select('stock, size')
+          .eq('id', item.variant_id)
+          .single();
+
+        if (!variant || variant.stock < item.qty) {
+          return res.status(400).json({
+            success: false,
+            error: `Insufficient stock for ${item.product_name} (Size: ${variant?.size || item.size}). Available: ${variant?.stock || 0}`
+          });
+        }
+      }
+    }
+
+    // Check or recreate Razorpay order
+    let rzpOrderId = order.razorpay_order_id;
+    const amountInPaise = Math.round(Number(order.total) * 100);
+
+    try {
+      if (rzpOrderId) {
+        const existingRzp = await razorpayInstance.orders.fetch(rzpOrderId);
+        if (existingRzp.status === 'paid') {
+          return res.status(400).json({ success: false, error: 'Order is already paid on Razorpay' });
+        }
+      } else {
+        throw new Error('Create new rzp order');
+      }
+    } catch {
+      const newRzp = await razorpayInstance.orders.create({
+        amount: amountInPaise,
+        currency: 'INR',
+        receipt: order.id.slice(0, 30),
+        notes: {
+          orderId: order.id,
+          userId: req.user.id
+        }
+      });
+      rzpOrderId = newRzp.id;
+      await supabaseAdmin.from('orders').update({ razorpay_order_id: rzpOrderId }).eq('id', order.id);
+    }
+
+    const { data: profile } = await supabaseAdmin.from('profiles').select('*').eq('id', req.user.id).single();
+
+    res.json({
+      success: true,
+      data: {
+        orderId: order.id,
+        orderNumber: order.order_number,
+        razorpayOrderId: rzpOrderId,
+        amount: amountInPaise,
+        currency: 'INR',
+        keyId: env.RZP_KEY_ID,
+        user: {
+          name: profile?.full_name || order.shipping_address?.name || 'Customer',
+          email: req.user.email,
+          phone: profile?.phone || order.shipping_address?.phone || ''
+        }
+      }
+    });
+  } catch (err) {
+    next(err);
+  }
+};

@@ -50,12 +50,24 @@ export const ProductCard = ({ product, isWishlisted = false, onWishlistToggle })
         <img
           src={imageIndex === 1 && product.images?.[1] ? hoverImage : primaryImage}
           alt={product.name}
-          className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+          className={`w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 ${
+            product.total_stock === 0 || product.in_stock === false ? 'grayscale opacity-70' : ''
+          }`}
           loading="lazy"
         />
 
         {/* Badges Overlay */}
         <div className="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
+          {product.total_stock === 0 || product.in_stock === false ? (
+            <span className="bg-rose-700 text-white text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-1 rounded-md shadow-sm">
+              Sold Out
+            </span>
+          ) : product.total_stock > 0 && product.total_stock <= 10 ? (
+            <span className="bg-amber-600 text-white text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-1 rounded-md shadow-sm animate-pulse">
+              Only Few Left
+            </span>
+          ) : null}
+
           {discountPercent > 0 && (
             <span className="bg-neutral-950 text-white text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-1 rounded-md shadow-sm">
               {discountPercent}% OFF
